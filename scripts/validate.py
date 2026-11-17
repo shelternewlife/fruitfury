@@ -444,8 +444,8 @@ if sitemap_directives != [f"Sitemap: {BASE}/sitemap.xml", f"Sitemap: {BASE}/site
 
 if APP["package_id"] not in APP["google_play_url"]:
     fail("Package ID mismatch in Google Play URL")
-if len(SCREENSHOTS) != 5 or any(urlparse(item.get("src", "")).hostname != "play-lh.googleusercontent.com" for item in SCREENSHOTS):
-    fail("Gallery must use the five official Google Play screenshot assets")
+if len(SCREENSHOTS) != 4 or any(urlparse(item.get("src", "")).hostname != "play-lh.googleusercontent.com" for item in SCREENSHOTS):
+    fail("Gallery must use the four official Google Play screenshot assets")
 
 if ERRORS:
     print("\n".join(ERRORS))
