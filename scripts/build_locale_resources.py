@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 APP = json.loads((ROOT / "content/app.json").read_text(encoding="utf-8"))
+LOCALES = json.loads((ROOT / "content/locales.json").read_text(encoding="utf-8"))
 STRATEGY = json.loads((ROOT / "content/market-strategy.json").read_text(encoding="utf-8"))
 BASE = APP["website_url"].rstrip("/")
 NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -110,9 +111,12 @@ def render_page(locale, tail):
     import build
     flags = '<div class="locale-switch" aria-label="Country and region">' + build.render_market_flags(tail, locale) + build.render_social_links() + '</div>'
     primary = build.TEXT["en"]
+    primary_text = LOCALES.get(locale, {}).get("text", {})
     nav_primary = [
-        ("about", primary["about"]), ("features", primary["features"]),
-        ("download", primary["download_nav"]), ("faq", primary["faq"])
+        ("about", primary_text.get("about", primary["about"])),
+        ("features", primary_text.get("features", primary["features"])),
+        ("download", primary_text.get("download_nav", primary["download_nav"])),
+        ("faq", primary_text.get("faq", primary["faq"]))
     ]
     primary_links = "".join(f'<a data-nav-item="{key}" href="{BASE}/{locale.lower()}/{key}/">{esc(label)}</a>' for key, label in nav_primary)
     resource_links = "".join(f'<a data-nav-item="{key}" href="{route(locale, key)}">{esc(data["nav"][key])}</a>' for key in HUBS)
