@@ -151,20 +151,9 @@ def page_url(lang, section="home"):
 
 
 def render_social_links():
-    items = (
-        ("Facebook", "https://www.facebook.com/", '<path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.2V10H7.3v3h2.8v8z"/>'),
-        ("X", "https://x.com/", '<path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3L12 14.6 5.5 22H2.4l7.3-8.4L1.9 2h6.5l4.4 6.8zm-1.1 18h1.7L7.4 3.9H5.6z"/>'),
-        ("TikTok", "https://www.tiktok.com/", '<path d="M19.6 7.2a6.9 6.9 0 0 1-4.2-1.4v8.1a6.1 6.1 0 1 1-6.1-6.1c.4 0 .8 0 1.2.1v3.4a2.8 2.8 0 1 0 1.6 2.6V2h3.4a3.9 3.9 0 0 0 4.1 3.7z"/>'),
-        ("Instagram", "https://www.instagram.com/", '<rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="18" cy="6.5" r="1.2"/>'),
-    )
-    links = []
-    for label, url, artwork in items:
-        links.append(
-            f'<a class="social-link" href="{url}" target="_blank" rel="noopener noreferrer" '
-            f'aria-label="{label}" title="{label}"><svg viewBox="0 0 24 24" aria-hidden="true" '
-            f'focusable="false">{artwork}</svg></a>'
-        )
-    return '<div class="social-links" aria-label="Social media">' + "".join(links) + '</div>'
+    # No official social profile URLs are published for this game yet.
+    # Keep the container for the locale-selector layout without linking to generic platform homepages.
+    return '<div class="social-links" aria-label="Social media"></div>'
 
 def render_market_flags(tail="", current=None):
     import build_locales
