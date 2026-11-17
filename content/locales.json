@@ -48,7 +48,93 @@
       "faq": "Réponses sur le jeu, les combos, les bombes, les niveaux, les récompenses, les publicités et le mode hors ligne."
     },
     "app_description": "Découvrez Fruit Fury Slice, un jeu de découpe de fruits axé sur les gestes précis, les combos et les niveaux progressifs.",
-    "tagline": "Coupez. Enchaînez. Conquérez."
+    "tagline": "Coupez. Enchaînez. Conquérez.",
+    "features": [
+      [
+        "Découpez les fruits volants avec précision",
+        "Glissez sur l’écran avec des commandes tactiles réactives. Choisissez le bon moment et réagissez rapidement à l’apparition des fruits."
+      ],
+      [
+        "Créez de longues séries de combos",
+        "Coupez plusieurs fruits rapidement pour prolonger votre série, augmenter votre score et améliorer chaque partie."
+      ],
+      [
+        "Évitez les bombes et les erreurs dangereuses",
+        "Tous les objets ne peuvent pas être coupés sans risque. Repérez les bombes et choisissez soigneusement vos gestes."
+      ],
+      [
+        "Progressez dans les niveaux et gagnez des récompenses",
+        "Relevez des défis de plus en plus rapides, visez un meilleur score et gagnez des pièces et des gemmes. Le jeu prend aussi en charge le mode hors ligne."
+      ]
+    ],
+    "faq": [
+      [
+        "Qu’est-ce que Fruit Fury Slice ?",
+        "Fruit Fury Slice est un jeu d’arcade Android rapide axé sur la découpe de fruits, les combos, l’évitement des bombes et la progression dans les niveaux."
+      ],
+      [
+        "Comment jouer ?",
+        "Glissez sur l’écran pour couper les fruits lorsqu’ils apparaissent. Réagissez rapidement, visez avec précision et évitez les bombes."
+      ],
+      [
+        "Comment obtenir un meilleur score ?",
+        "Travaillez votre rythme et votre précision. Coupez plusieurs fruits rapidement pour créer des combos et améliorer votre score."
+      ],
+      [
+        "Pourquoi faut-il éviter les bombes ?",
+        "Les bombes sont des objets dangereux. Un geste imprudent peut mettre fin à une partie prometteuse."
+      ],
+      [
+        "Le jeu devient-il plus difficile ?",
+        "Oui. La vitesse des objets, leurs apparitions et l’intensité des défis augmentent au fil des niveaux."
+      ],
+      [
+        "Peut-on gagner des pièces et des gemmes ?",
+        "Oui. La description du jeu mentionne les pièces et les gemmes parmi les récompenses obtenues en progressant."
+      ],
+      [
+        "Peut-on jouer hors ligne ?",
+        "La fiche du jeu indique que l’expérience d’arcade principale est disponible hors ligne, sans connexion permanente."
+      ],
+      [
+        "Fruit Fury Slice contient-il des publicités ?",
+        "Oui. Google Play indique que Fruit Fury Slice contient des publicités."
+      ],
+      [
+        "Le jeu est-il facile à apprendre ?",
+        "Les commandes reposent sur de simples gestes tactiles. Le principe est facile à comprendre, mais le rythme et la précision demandent de la pratique."
+      ],
+      [
+        "Fruit Fury Slice est-il un jeu de réflexion ou d’arcade ?",
+        "Google Play classe Fruit Fury Slice dans la catégorie Arcade."
+      ],
+      [
+        "Où télécharger le jeu ?",
+        "Téléchargez Fruit Fury Slice depuis sa fiche officielle Google Play en utilisant les liens de ce site."
+      ],
+      [
+        "Qui développe Fruit Fury Slice ?",
+        "Fruit Fury Slice est publié sur Google Play par DevImpact."
+      ]
+    ],
+    "screenshots": [
+      [
+        "Écran d’accueil de Fruit Fury Slice avec le bouton Jouer, le niveau actuel, le meilleur score, les crédits, la boutique et les réglages",
+        "Votre espace de jeu Fruit Fury Slice"
+      ],
+      [
+        "Partie de Fruit Fury Slice affichant les fruits, le score, les pièces, le niveau, le combo et le chronomètre",
+        "Coupez les fruits et augmentez votre score"
+      ],
+      [
+        "Boutique Run Support de Fruit Fury Slice avec le solde de pièces gagnées et les options de soutien au jeu",
+        "Utilisez les pièces gagnées dans la boutique Run Support"
+      ],
+      [
+        "Écran des paramètres de Fruit Fury Slice avec retour haptique, politique de confidentialité et assistance",
+        "Paramètres, confidentialité et assistance"
+      ]
+    ]
   },
   "fr-FR": {
     "text": {
@@ -99,7 +185,93 @@
       "faq": "Réponses sur le jeu, les combos, les bombes, les niveaux, les récompenses, les publicités et le mode hors ligne."
     },
     "app_description": "Découvrez Fruit Fury Slice, un jeu de découpe de fruits axé sur les gestes précis, les combos et les niveaux progressifs.",
-    "tagline": "Coupez. Enchaînez. Conquérez."
+    "tagline": "Coupez. Enchaînez. Conquérez.",
+    "features": [
+      [
+        "Découpez les fruits volants avec précision",
+        "Glissez sur l’écran avec des commandes tactiles réactives. Choisissez le bon moment et réagissez rapidement à l’apparition des fruits."
+      ],
+      [
+        "Créez de longues séries de combos",
+        "Coupez plusieurs fruits rapidement pour prolonger votre série, augmenter votre score et améliorer chaque partie."
+      ],
+      [
+        "Évitez les bombes et les erreurs dangereuses",
+        "Tous les objets ne peuvent pas être coupés sans risque. Repérez les bombes et choisissez soigneusement vos gestes."
+      ],
+      [
+        "Progressez dans les niveaux et gagnez des récompenses",
+        "Relevez des défis de plus en plus rapides, visez un meilleur score et gagnez des pièces et des gemmes. Le jeu prend aussi en charge le mode hors ligne."
+      ]
+    ],
+    "faq": [
+      [
+        "Qu’est-ce que Fruit Fury Slice ?",
+        "Fruit Fury Slice est un jeu d’arcade Android rapide axé sur la découpe de fruits, les combos, l’évitement des bombes et la progression dans les niveaux."
+      ],
+      [
+        "Comment jouer ?",
+        "Glissez sur l’écran pour couper les fruits lorsqu’ils apparaissent. Réagissez rapidement, visez avec précision et évitez les bombes."
+      ],
+      [
+        "Comment obtenir un meilleur score ?",
+        "Travaillez votre rythme et votre précision. Coupez plusieurs fruits rapidement pour créer des combos et améliorer votre score."
+      ],
+      [
+        "Pourquoi faut-il éviter les bombes ?",
+        "Les bombes sont des objets dangereux. Un geste imprudent peut mettre fin à une partie prometteuse."
+      ],
+      [
+        "Le jeu devient-il plus difficile ?",
+        "Oui. La vitesse des objets, leurs apparitions et l’intensité des défis augmentent au fil des niveaux."
+      ],
+      [
+        "Peut-on gagner des pièces et des gemmes ?",
+        "Oui. La description du jeu mentionne les pièces et les gemmes parmi les récompenses obtenues en progressant."
+      ],
+      [
+        "Peut-on jouer hors ligne ?",
+        "La fiche du jeu indique que l’expérience d’arcade principale est disponible hors ligne, sans connexion permanente."
+      ],
+      [
+        "Fruit Fury Slice contient-il des publicités ?",
+        "Oui. Google Play indique que Fruit Fury Slice contient des publicités."
+      ],
+      [
+        "Le jeu est-il facile à apprendre ?",
+        "Les commandes reposent sur de simples gestes tactiles. Le principe est facile à comprendre, mais le rythme et la précision demandent de la pratique."
+      ],
+      [
+        "Fruit Fury Slice est-il un jeu de réflexion ou d’arcade ?",
+        "Google Play classe Fruit Fury Slice dans la catégorie Arcade."
+      ],
+      [
+        "Où télécharger le jeu ?",
+        "Téléchargez Fruit Fury Slice depuis sa fiche officielle Google Play en utilisant les liens de ce site."
+      ],
+      [
+        "Qui développe Fruit Fury Slice ?",
+        "Fruit Fury Slice est publié sur Google Play par DevImpact."
+      ]
+    ],
+    "screenshots": [
+      [
+        "Écran d’accueil de Fruit Fury Slice avec le bouton Jouer, le niveau actuel, le meilleur score, les crédits, la boutique et les réglages",
+        "Votre espace de jeu Fruit Fury Slice"
+      ],
+      [
+        "Partie de Fruit Fury Slice affichant les fruits, le score, les pièces, le niveau, le combo et le chronomètre",
+        "Coupez les fruits et augmentez votre score"
+      ],
+      [
+        "Boutique Run Support de Fruit Fury Slice avec le solde de pièces gagnées et les options de soutien au jeu",
+        "Utilisez les pièces gagnées dans la boutique Run Support"
+      ],
+      [
+        "Écran des paramètres de Fruit Fury Slice avec retour haptique, politique de confidentialité et assistance",
+        "Paramètres, confidentialité et assistance"
+      ]
+    ]
   },
   "es-ES": {
     "text": {
@@ -150,7 +322,93 @@
       "faq": "Respuestas sobre el juego, combos, bombas, niveles, recompensas, anuncios y juego sin conexión."
     },
     "app_description": "Descubre Fruit Fury Slice, un juego de cortar frutas basado en movimientos precisos, combos y niveles progresivos.",
-    "tagline": "Corta. Combina. Conquista."
+    "tagline": "Corta. Combina. Conquista.",
+    "features": [
+      [
+        "Corta las frutas voladoras con precisión",
+        "Desliza el dedo por la pantalla con controles táctiles ágiles. Calcula cada corte y reacciona cuando aparezcan las frutas."
+      ],
+      [
+        "Crea cadenas de combos más largas",
+        "Corta varias frutas seguidas para mantener la racha, aumentar tu puntuación y mejorar cada partida."
+      ],
+      [
+        "Esquiva bombas y evita errores peligrosos",
+        "No todos los objetos son seguros. Mantente alerta, identifica las bombas y elige bien cada movimiento."
+      ],
+      [
+        "Avanza por niveles y consigue recompensas",
+        "Enfréntate a retos cada vez más rápidos, busca una puntuación mayor y consigue monedas y gemas. También puedes jugar sin conexión."
+      ]
+    ],
+    "faq": [
+      [
+        "¿Qué es Fruit Fury Slice?",
+        "Fruit Fury Slice es un juego arcade rápido para Android centrado en cortar frutas, crear combos, esquivar bombas y avanzar por niveles."
+      ],
+      [
+        "¿Cómo se juega?",
+        "Desliza el dedo por la pantalla para cortar las frutas cuando aparezcan. Reacciona rápido, apunta con precisión y evita las bombas."
+      ],
+      [
+        "¿Cómo puedo conseguir una puntuación más alta?",
+        "Mejora el ritmo y la precisión. Corta varias frutas seguidas para crear combos y aumentar tu puntuación."
+      ],
+      [
+        "¿Por qué debo evitar las bombas?",
+        "Las bombas son objetos peligrosos. Un movimiento descuidado puede terminar una partida prometedora."
+      ],
+      [
+        "¿El juego se vuelve más difícil?",
+        "Sí. La velocidad de los objetos, sus patrones de aparición y la intensidad de los retos aumentan al avanzar por los niveles."
+      ],
+      [
+        "¿Puedo conseguir monedas y gemas?",
+        "Sí. La descripción del juego incluye monedas y gemas entre las recompensas que se obtienen al progresar."
+      ],
+      [
+        "¿Puedo jugar sin conexión?",
+        "La ficha del juego indica que la experiencia arcade principal permite jugar sin conexión permanente."
+      ],
+      [
+        "¿Fruit Fury Slice contiene anuncios?",
+        "Sí. Google Play indica que Fruit Fury Slice contiene anuncios."
+      ],
+      [
+        "¿Es fácil aprender a jugar?",
+        "Los controles se basan en gestos táctiles sencillos. La idea es fácil de entender, pero mejorar el ritmo y la precisión requiere práctica."
+      ],
+      [
+        "¿Fruit Fury Slice es un juego de puzles o arcade?",
+        "Google Play incluye Fruit Fury Slice en la categoría Arcade."
+      ],
+      [
+        "¿Dónde puedo descargar el juego?",
+        "Descarga Fruit Fury Slice desde su ficha oficial de Google Play mediante los enlaces de este sitio."
+      ],
+      [
+        "¿Quién desarrolla Fruit Fury Slice?",
+        "Fruit Fury Slice está publicado en Google Play por DevImpact."
+      ]
+    ],
+    "screenshots": [
+      [
+        "Pantalla de inicio de Fruit Fury Slice con el botón Jugar, nivel actual, mejor puntuación, créditos, tienda y ajustes",
+        "Tu centro de juego de Fruit Fury Slice"
+      ],
+      [
+        "Partida de Fruit Fury Slice con frutas, puntuación, monedas, nivel, contador de combos y temporizador",
+        "Corta frutas y mejora tu puntuación"
+      ],
+      [
+        "Tienda Run Support de Fruit Fury Slice con el saldo de monedas obtenidas y opciones de apoyo al juego",
+        "Usa las monedas conseguidas en Run Support"
+      ],
+      [
+        "Pantalla de ajustes de Fruit Fury Slice con respuesta háptica, política de privacidad y ayuda",
+        "Ajustes, privacidad y ayuda"
+      ]
+    ]
   },
   "pt-PT": {
     "text": {
@@ -201,7 +459,93 @@
       "faq": "Respostas sobre o jogo, combos, bombas, níveis, recompensas, anúncios e jogo offline."
     },
     "app_description": "Conheça Fruit Fury Slice, um jogo de cortar frutos com movimentos precisos, combos e níveis progressivos.",
-    "tagline": "Corte. Combine. Conquiste."
+    "tagline": "Corte. Combine. Conquiste.",
+    "features": [
+      [
+        "Corte os frutos em movimento com precisão",
+        "Deslize o dedo no ecrã com controlos táteis responsivos. Acerte no momento e reaja rapidamente ao aparecimento dos frutos."
+      ],
+      [
+        "Crie sequências de combo maiores",
+        "Corte vários frutos em sucessão rápida para manter a sequência, aumentar a pontuação e melhorar cada partida."
+      ],
+      [
+        "Evite bombas e erros perigosos",
+        "Nem todos os objetos são seguros para cortar. Esteja atento, identifique as bombas e escolha cuidadosamente os movimentos."
+      ],
+      [
+        "Avance nos níveis e ganhe recompensas",
+        "Enfrente desafios cada vez mais rápidos, procure uma pontuação superior e ganhe moedas e gemas. O jogo também permite jogar offline."
+      ]
+    ],
+    "faq": [
+      [
+        "O que é Fruit Fury Slice?",
+        "Fruit Fury Slice é um jogo arcade rápido para Android, centrado em cortar frutos, criar combos, evitar bombas e avançar pelos níveis."
+      ],
+      [
+        "Como se joga?",
+        "Deslize o dedo no ecrã para cortar os frutos quando aparecem. Reaja rapidamente, aponte com precisão e evite as bombas."
+      ],
+      [
+        "Como posso obter uma pontuação mais alta?",
+        "Melhore o ritmo e a precisão. Corte vários frutos em sucessão para criar combos e aumentar a pontuação."
+      ],
+      [
+        "Porque devo evitar as bombas?",
+        "As bombas são objetos perigosos. Um movimento descuidado pode terminar uma partida promissora."
+      ],
+      [
+        "O jogo fica mais difícil?",
+        "Sim. A velocidade dos objetos, os padrões de aparecimento e a intensidade dos desafios aumentam à medida que avança nos níveis."
+      ],
+      [
+        "Posso ganhar moedas e gemas?",
+        "Sim. A descrição do jogo inclui moedas e gemas entre as recompensas obtidas durante a progressão."
+      ],
+      [
+        "Posso jogar offline?",
+        "A página do jogo indica que a experiência arcade principal pode ser jogada sem uma ligação constante à Internet."
+      ],
+      [
+        "Fruit Fury Slice tem anúncios?",
+        "Sim. O Google Play indica que Fruit Fury Slice contém anúncios."
+      ],
+      [
+        "É fácil aprender a jogar?",
+        "Os controlos baseiam-se em gestos táteis simples. A ideia é fácil de compreender, mas melhorar o ritmo e a precisão exige prática."
+      ],
+      [
+        "Fruit Fury Slice é um jogo de puzzles ou arcade?",
+        "O Google Play classifica Fruit Fury Slice na categoria Arcade."
+      ],
+      [
+        "Onde posso transferir o jogo?",
+        "Transfira Fruit Fury Slice através da página oficial no Google Play, usando as ligações deste site."
+      ],
+      [
+        "Quem desenvolve Fruit Fury Slice?",
+        "Fruit Fury Slice é publicado no Google Play pela DevImpact."
+      ]
+    ],
+    "screenshots": [
+      [
+        "Ecrã inicial de Fruit Fury Slice com o botão Jogar, nível atual, melhor pontuação, créditos, loja e definições",
+        "O centro do jogo Fruit Fury Slice"
+      ],
+      [
+        "Partida de Fruit Fury Slice com frutos, pontuação, moedas, nível, contador de combos e temporizador",
+        "Corte frutos e aumente a pontuação"
+      ],
+      [
+        "Loja Run Support de Fruit Fury Slice com saldo de moedas ganhas e opções de apoio ao jogo",
+        "Utilize moedas ganhas na loja Run Support"
+      ],
+      [
+        "Ecrã de definições de Fruit Fury Slice com resposta háptica, política de privacidade e apoio",
+        "Definições, privacidade e apoio"
+      ]
+    ]
   },
   "de-DE": {
     "text": {
@@ -252,7 +596,93 @@
       "faq": "Antworten zu Gameplay, Kombos, Bomben, Leveln, Belohnungen, Werbung und Offline-Spiel."
     },
     "app_description": "Lerne Fruit Fury Slice kennen: ein Früchte-Arcade-Spiel mit präzisen Wischbewegungen, Kombos und steigenden Leveln.",
-    "tagline": "Schneiden. Kombinieren. Erobern."
+    "tagline": "Schneiden. Kombinieren. Erobern.",
+    "features": [
+      [
+        "Fliegende Früchte präzise schneiden",
+        "Wische mit reaktionsschneller Touch-Steuerung über den Bildschirm. Wähle den richtigen Moment und reagiere schnell auf Früchte."
+      ],
+      [
+        "Längere Combo-Ketten aufbauen",
+        "Schneide mehrere Früchte schnell hintereinander, halte deine Serie aufrecht und verbessere deinen Punktestand."
+      ],
+      [
+        "Bomben und gefährliche Fehler vermeiden",
+        "Nicht jedes Objekt darf sicher geschnitten werden. Achte auf Bomben und wähle deine Bewegungen sorgfältig."
+      ],
+      [
+        "Level meistern und Belohnungen sammeln",
+        "Stelle dich zunehmend schnelleren Herausforderungen, jage höhere Punktzahlen und verdiene Münzen und Edelsteine. Das Spiel unterstützt auch Offline-Spiel."
+      ]
+    ],
+    "faq": [
+      [
+        "Was ist Fruit Fury Slice?",
+        "Fruit Fury Slice ist ein schnelles Android-Arcade-Spiel, bei dem du Früchte schneidest, Kombos bildest, Bomben ausweichst und Level meisterst."
+      ],
+      [
+        "Wie spielt man?",
+        "Wische über den Bildschirm, um erscheinende Früchte zu schneiden. Reagiere schnell, ziele genau und vermeide Bomben."
+      ],
+      [
+        "Wie erreiche ich eine höhere Punktzahl?",
+        "Verbessere Timing und Genauigkeit. Schneide mehrere Früchte schnell hintereinander, um Kombos aufzubauen und mehr Punkte zu erzielen."
+      ],
+      [
+        "Warum sollte ich Bomben vermeiden?",
+        "Bomben sind gefährliche Objekte. Eine unüberlegte Bewegung kann eine vielversprechende Runde beenden."
+      ],
+      [
+        "Wird das Spiel schwieriger?",
+        "Ja. Objektgeschwindigkeit, Erscheinungsmuster und Herausforderungsintensität nehmen mit dem Fortschritt durch die Level zu."
+      ],
+      [
+        "Kann ich Münzen und Edelsteine verdienen?",
+        "Ja. Die Spielbeschreibung nennt Münzen und Edelsteine als Belohnungen, die du im Spielverlauf verdienen kannst."
+      ],
+      [
+        "Kann ich offline spielen?",
+        "Laut Spieleintrag lässt sich das zentrale Arcade-Erlebnis ohne dauerhafte Internetverbindung spielen."
+      ],
+      [
+        "Enthält Fruit Fury Slice Werbung?",
+        "Ja. Google Play kennzeichnet Fruit Fury Slice als Spiel mit Werbung."
+      ],
+      [
+        "Ist das Spiel leicht zu lernen?",
+        "Die Steuerung basiert auf einfachen Touch-Wischbewegungen. Das Grundprinzip ist leicht zu verstehen, Präzision braucht Übung."
+      ],
+      [
+        "Ist Fruit Fury Slice ein Puzzle- oder Arcade-Spiel?",
+        "Google Play führt Fruit Fury Slice in der Kategorie Arcade."
+      ],
+      [
+        "Wo kann ich das Spiel herunterladen?",
+        "Lade Fruit Fury Slice über den offiziellen Google-Play-Eintrag und die Links auf dieser Website herunter."
+      ],
+      [
+        "Wer entwickelt Fruit Fury Slice?",
+        "Fruit Fury Slice wird auf Google Play von DevImpact veröffentlicht."
+      ]
+    ],
+    "screenshots": [
+      [
+        "Startbildschirm von Fruit Fury Slice mit Spielen-Schaltfläche, aktuellem Level, Bestwert, Guthaben, Store und Einstellungen",
+        "Deine Fruit Fury Slice Spielübersicht"
+      ],
+      [
+        "Fruit Fury Slice Gameplay mit Früchten, Punktzahl, Münzen, Level, Combo-Zähler und Timer",
+        "Schneide Früchte und verbessere deinen Punktestand"
+      ],
+      [
+        "Run Support Store von Fruit Fury Slice mit Guthaben verdienter Münzen und Gameplay-Unterstützung",
+        "Verdiente Münzen im Run Support Store einsetzen"
+      ],
+      [
+        "Einstellungsbildschirm von Fruit Fury Slice mit haptischem Feedback, Datenschutz und Support",
+        "Einstellungen, Datenschutz und Support"
+      ]
+    ]
   },
   "it-IT": {
     "text": {
@@ -303,7 +733,93 @@
       "faq": "Risposte su gameplay, combo, bombe, livelli, ricompense, annunci e gioco offline."
     },
     "app_description": "Scopri Fruit Fury Slice, un gioco di taglio della frutta basato su swipe precisi, combo e livelli progressivi.",
-    "tagline": "Taglia. Combina. Conquista."
+    "tagline": "Taglia. Combina. Conquista.",
+    "features": [
+      [
+        "Taglia con precisione la frutta in volo",
+        "Scorri sullo schermo con comandi touch reattivi. Scegli il momento giusto e reagisci rapidamente quando appare la frutta."
+      ],
+      [
+        "Crea combo sempre più lunghe",
+        "Taglia più frutti in rapida successione per mantenere la serie, aumentare il punteggio e migliorare ogni partita."
+      ],
+      [
+        "Evita bombe ed errori pericolosi",
+        "Non tutti gli oggetti possono essere tagliati in sicurezza. Resta attento, individua le bombe e scegli con cura i movimenti."
+      ],
+      [
+        "Avanza nei livelli e ottieni ricompense",
+        "Affronta sfide sempre più veloci, punta a punteggi più alti e guadagna monete e gemme. Il gioco supporta anche la modalità offline."
+      ]
+    ],
+    "faq": [
+      [
+        "Che cos’è Fruit Fury Slice?",
+        "Fruit Fury Slice è un veloce gioco arcade per Android incentrato sul taglio della frutta, sulle combo, sull’evitare le bombe e sull’avanzamento nei livelli."
+      ],
+      [
+        "Come si gioca?",
+        "Scorri sullo schermo per tagliare la frutta quando appare. Reagisci rapidamente, mira con precisione ed evita le bombe."
+      ],
+      [
+        "Come posso ottenere un punteggio più alto?",
+        "Migliora tempismo e precisione. Taglia più frutti in rapida successione per creare combo e aumentare il punteggio."
+      ],
+      [
+        "Perché devo evitare le bombe?",
+        "Le bombe sono oggetti pericolosi. Un movimento poco attento può terminare una partita promettente."
+      ],
+      [
+        "Il gioco diventa più difficile?",
+        "Sì. La velocità degli oggetti, i modelli di comparsa e l’intensità delle sfide aumentano con l’avanzamento nei livelli."
+      ],
+      [
+        "Posso ottenere monete e gemme?",
+        "Sì. La descrizione del gioco include monete e gemme tra le ricompense ottenibili durante la progressione."
+      ],
+      [
+        "Posso giocare offline?",
+        "La scheda del gioco indica che l’esperienza arcade principale è disponibile senza una connessione Internet costante."
+      ],
+      [
+        "Fruit Fury Slice contiene annunci?",
+        "Sì. Google Play indica che Fruit Fury Slice contiene annunci."
+      ],
+      [
+        "È facile imparare a giocare?",
+        "I comandi si basano su semplici gesti touch. L’idea è facile da capire, ma migliorare ritmo e precisione richiede pratica."
+      ],
+      [
+        "Fruit Fury Slice è un puzzle o un gioco arcade?",
+        "Google Play inserisce Fruit Fury Slice nella categoria Arcade."
+      ],
+      [
+        "Dove posso scaricare il gioco?",
+        "Scarica Fruit Fury Slice dalla scheda ufficiale su Google Play usando i link presenti su questo sito."
+      ],
+      [
+        "Chi sviluppa Fruit Fury Slice?",
+        "Fruit Fury Slice è pubblicato su Google Play da DevImpact."
+      ]
+    ],
+    "screenshots": [
+      [
+        "Schermata iniziale di Fruit Fury Slice con pulsante Gioca, livello attuale, record, crediti, negozio e impostazioni",
+        "La schermata principale di Fruit Fury Slice"
+      ],
+      [
+        "Partita di Fruit Fury Slice con frutta, punteggio, monete, livello, contatore combo e timer",
+        "Taglia la frutta e aumenta il punteggio"
+      ],
+      [
+        "Negozio Run Support di Fruit Fury Slice con saldo delle monete guadagnate e opzioni di supporto al gioco",
+        "Usa le monete guadagnate nel Run Support Store"
+      ],
+      [
+        "Schermata delle impostazioni di Fruit Fury Slice con feedback aptico, privacy e assistenza",
+        "Impostazioni, privacy e assistenza"
+      ]
+    ]
   },
   "en-US": {
     "titles": {
