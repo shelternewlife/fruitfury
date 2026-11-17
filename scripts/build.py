@@ -283,7 +283,7 @@ def render_content(lang, section):
         )
     if section == "features":
         return (
-            f'<section class="section"><div class="tag">JOB CONNECT · ANDROID</div>'
+            f'<section class="section"><div class="tag">FRUIT FURY SLICE · ANDROID</div>'
             f'<h1>{t["features"]}</h1><p class="lead">{t["features_intro"]}</p>'
             f'{render_features(lang)}'
             f'<section class="section end"><h2>{t["download"]}</h2>'
@@ -295,7 +295,7 @@ def render_content(lang, section):
         return render_download(lang)
     if section == "faq":
         return (
-            f'<section class="section"><div class="tag">JOB CONNECT</div>'
+            f'<section class="section"><div class="tag">FRUIT FURY SLICE</div>'
             f'<h1>{t["faq"]}</h1><p class="lead">{t["faq_intro"]}</p>'
             f'{render_faq(lang)}</section>'
             f'<section class="section end"><h2>{t["download"]}</h2>'
