@@ -166,7 +166,7 @@ def guide(lang, slug, data):
     blocks = []
     for i, (h_en, h_ar, p_en, p_ar) in enumerate(steps):
         shot = SHOTS[min(i, len(SHOTS) - 1)]
-        image = f'<figure class="guide-shot"><img src="{e(shot["src"])}" width="526" height="296" alt="{e(shot["alt"][lang])}" loading="lazy" decoding="async"><figcaption>{e(shot["caption"][lang])}</figcaption></figure>'
+        image = f'<figure class="guide-shot"><img src="{e(shot["src"])}" width="176" height="296" alt="{e(shot["alt"][lang])}" loading="lazy" decoding="async"><figcaption>{e(shot["caption"][lang])}</figcaption></figure>'
         blocks.append(f'<section class="guide-step"><div class="num">{i+1:02d}</div><div><h2>{e(h_en if lang == "en" else h_ar)}</h2><p>{e(p_en if lang == "en" else p_ar)}</p>{image}</div></section>')
     content = f'<section class="section"><div class="tag">FRUIT FURY SLICE · {"GAME GUIDE" if lang == "en" else "دليل اللعبة"}</div><h1>{e(title)}</h1><p class="lead">{e(desc)}</p><div class="guide-list">{"".join(blocks)}</div></section>'
     return page(lang, slug, title, desc, content)
@@ -178,7 +178,7 @@ def feature_page(lang, feature):
     desc = feature["description"][lang]
     shot = SHOTS[index]
     sections = "".join(f'<section class="article-section"><h2>{e(h_en if lang == "en" else h_ar)}</h2><p>{e(p_en if lang == "en" else p_ar)}</p></section>' for h_en, h_ar, p_en, p_ar in FEATURE_DETAILS[slug])
-    content = f'<article class="section article"><div class="tag">FRUIT FURY SLICE · {"GAME FEATURE" if lang == "en" else "ميزة في اللعبة"}</div><h1>{e(feature["title"][lang])}</h1><p class="lead">{e(desc)}</p><figure class="guide-shot"><img src="{e(shot["src"])}" width="526" height="296" alt="{e(shot["alt"][lang])}" loading="lazy" decoding="async"><figcaption>{e(shot["caption"][lang])}</figcaption></figure>{sections}<p><a href="{route_url(lang, "features")}">{"Explore all features" if lang == "en" else "استكشف جميع المزايا"}</a></p><a class="btn" href="{PLAY}" target="_blank" rel="noopener noreferrer">{"Play on Google Play" if lang == "en" else "العب على Google Play"}</a></article>'
+    content = f'<article class="section article"><div class="tag">FRUIT FURY SLICE · {"GAME FEATURE" if lang == "en" else "ميزة في اللعبة"}</div><h1>{e(feature["title"][lang])}</h1><p class="lead">{e(desc)}</p><figure class="guide-shot"><img src="{e(shot["src"])}" width="176" height="296" alt="{e(shot["alt"][lang])}" loading="lazy" decoding="async"><figcaption>{e(shot["caption"][lang])}</figcaption></figure>{sections}<p><a href="{route_url(lang, "features")}">{"Explore all features" if lang == "en" else "استكشف جميع المزايا"}</a></p><a class="btn" href="{PLAY}" target="_blank" rel="noopener noreferrer">{"Play on Google Play" if lang == "en" else "العب على Google Play"}</a></article>'
     return page(lang, "features/" + slug, title, desc, content)
 
 def build_extra_pages():
