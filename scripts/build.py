@@ -373,7 +373,6 @@ def render_language_root():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="google-site-verification" content="8mOiNMu4Tn477yFaR-IWrNQGhdqH1TpF6NKKoN94Oms">
 <meta name="robots" content="noindex,follow">
 <title>Fruit Fury Slice</title>
 <link rel="canonical" href="{target}">
