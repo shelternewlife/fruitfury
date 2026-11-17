@@ -1,122 +1,50 @@
 [
   {
-    "q": {
-      "en": "What is Job Connect?",
-      "ar": "ما هو Job Connect؟"
-    },
-    "a": {
-      "en": "A job-opportunity discovery app focused on fresh signals, opportunity context and personal collections.",
-      "ar": "تطبيق لاكتشاف فرص العمل يركز على الإشارات الحديثة وسياق الفرص والمجموعات الشخصية."
-    }
+    "q": {"en": "What is Fruit Fury Slice?", "ar": "ما هي Fruit Fury Slice؟"},
+    "a": {"en": "Fruit Fury Slice is a fast-paced Android arcade game focused on slicing flying fruit, building combos, avoiding bombs, and progressing through challenging levels.", "ar": "Fruit Fury Slice لعبة أركيد سريعة لنظام Android، تتمحور حول تقطيع الفواكه المتطايرة وبناء سلاسل الكومبو وتجنب القنابل والتقدم عبر مستويات مليئة بالتحديات."}
   },
   {
-    "q": {
-      "en": "What does an alignment score mean?",
-      "ar": "ماذا تعني درجة التوافق؟"
-    },
-    "a": {
-      "en": "It is an app-displayed indicator, not a promise that a role is a perfect match or that an application will succeed.",
-      "ar": "مؤشر يعرضه التطبيق، وليس ضماناً بأن الوظيفة مناسبة تماماً أو بأن طلب التوظيف سينجح."
-    }
+    "q": {"en": "How do I play?", "ar": "كيف ألعب؟"},
+    "a": {"en": "Swipe across the screen to slice the fruit as it appears. React quickly, aim carefully, and avoid swiping through bombs.", "ar": "اسحب عبر الشاشة لتقطيع الفواكه عند ظهورها. تفاعل بسرعة، وصوّب حركاتك بعناية، وتجنب تمرير إصبعك على القنابل."}
   },
   {
-    "q": {
-      "en": "What are the intelligence metrics?",
-      "ar": "ما المقصود بمؤشرات الذكاء؟"
-    },
-    "a": {
-      "en": "Screens show derived indicators such as data completeness, post freshness, uniqueness and competition, plus detected capabilities and requisites. They are estimates.",
-      "ar": "تعرض الشاشات مؤشرات مستنتجة مثل اكتمال البيانات والحداثة والتفرد والمنافسة والمهارات والمتطلبات. وهي تقديرات."
-    }
+    "q": {"en": "How can I get a higher score?", "ar": "كيف أحقق نتيجة أعلى؟"},
+    "a": {"en": "Work on timing and accuracy. Slice multiple fruits in quick succession to build combo chains and keep improving your score.", "ar": "حسّن التوقيت والدقة. قطّع عدة فواكه بسرعة متتابعة لبناء سلاسل كومبو ومواصلة تحسين نتيجتك."}
   },
   {
-    "q": {
-      "en": "Can I organize opportunities?",
-      "ar": "هل يمكنني تنظيم الفرص؟"
-    },
-    "a": {
-      "en": "Yes. Collections include examples such as Remote Hub, Elite Leap and My Watchlist.",
-      "ar": "نعم. تشمل أمثلة المجموعات Remote Hub وElite Leap وMy Watchlist."
-    }
+    "q": {"en": "Why should I avoid bombs?", "ar": "لماذا يجب أن أتجنب القنابل؟"},
+    "a": {"en": "Bombs are dangerous objects in the game. A careless swipe can end a promising run, so identify hazards before you move.", "ar": "القنابل أجسام خطيرة داخل اللعبة. قد تنهي حركة غير محسوبة جولة جيدة، لذلك تعرّف على المخاطر قبل السحب."}
   },
   {
-    "q": {
-      "en": "Where can I install Job Connect?",
-      "ar": "من أين أثبّت Job Connect؟"
-    },
-    "a": {
-      "en": "Install the Android app from its official Google Play listing.",
-      "ar": "ثبّت تطبيق Android من صفحته الرسمية على Google Play."
-    }
+    "q": {"en": "Does the game become more difficult?", "ar": "هل تزداد صعوبة اللعبة؟"},
+    "a": {"en": "Yes. The published game description explains that object speed, spawn patterns, and challenge intensity increase as you progress through levels.", "ar": "نعم. يوضح وصف اللعبة المنشور أن سرعة الأجسام وأنماط ظهورها وشدة التحديات تزداد كلما تقدمت عبر المستويات."}
   },
   {
-    "q": {
-      "en": "Does Job Connect contain ads?",
-      "ar": "هل يحتوي Job Connect على إعلانات؟"
-    },
-    "a": {
-      "en": "The Google Play listing identifies the app as containing ads.",
-      "ar": "توضح صفحة Google Play أن التطبيق يحتوي على إعلانات."
-    }
+    "q": {"en": "Can I earn coins and gems?", "ar": "هل يمكنني جمع العملات والجواهر؟"},
+    "a": {"en": "Yes. The game description lists coins and gems among the rewards you can earn through gameplay progression.", "ar": "نعم. يذكر وصف اللعبة العملات والجواهر ضمن المكافآت التي يمكنك كسبها أثناء التقدم في اللعب."}
   },
   {
-    "q": {
-      "en": "Does Job Connect apply to jobs for me?",
-      "ar": "هل يتقدم Job Connect إلى الوظائف نيابةً عني؟"
-    },
-    "a": {
-      "en": "No. Job Connect helps you discover and review opportunities. Follow the employer's official application instructions to apply.",
-      "ar": "لا. يساعدك Job Connect على اكتشاف الفرص ومراجعتها. اتبع تعليمات التقديم الرسمية لدى صاحب العمل لإرسال طلبك."
-    }
+    "q": {"en": "Can I play offline?", "ar": "هل يمكنني اللعب دون اتصال بالإنترنت؟"},
+    "a": {"en": "The game listing describes offline play, so you can enjoy its core arcade experience without a constant internet connection.", "ar": "يشير وصف اللعبة إلى دعم اللعب دون اتصال، ما يتيح لك الاستمتاع بتجربة الأركيد الأساسية دون الحاجة إلى اتصال دائم بالإنترنت."}
   },
   {
-    "q": {
-      "en": "Does an opportunity indicator guarantee a successful application?",
-      "ar": "هل تضمن مؤشرات الفرصة نجاح طلب التوظيف؟"
-    },
-    "a": {
-      "en": "No. Alignment, freshness and intelligence indicators are estimates that support your review. They do not predict hiring decisions or guarantee an interview.",
-      "ar": "لا. مؤشرات التوافق والحداثة والذكاء تقديرات تساعدك على المراجعة، ولا تتنبأ بقرارات التوظيف أو تضمن مقابلة."
-    }
+    "q": {"en": "Does Fruit Fury Slice contain ads?", "ar": "هل تحتوي Fruit Fury Slice على إعلانات؟"},
+    "a": {"en": "Yes. Google Play identifies Fruit Fury Slice as an app that contains ads.", "ar": "نعم. توضح صفحة Google Play أن Fruit Fury Slice تحتوي على إعلانات."}
   },
   {
-    "q": {
-      "en": "How can I check whether a job listing is genuine?",
-      "ar": "كيف أتحقق من أن إعلان الوظيفة حقيقي؟"
-    },
-    "a": {
-      "en": "Find the employer's official website independently, compare the job details and application domain, and be cautious of requests for money, passwords or verification codes.",
-      "ar": "ابحث بنفسك عن الموقع الرسمي لصاحب العمل، وقارن تفاصيل الوظيفة ونطاق التقديم، واحذر طلبات المال أو كلمات المرور أو رموز التحقق."
-    }
+    "q": {"en": "Is it easy to learn?", "ar": "هل يسهل تعلم اللعبة؟"},
+    "a": {"en": "The controls are based on simple touch swipes, making the basic idea easy to understand. Improving your timing and accuracy takes practice.", "ar": "تعتمد عناصر التحكم على السحب باللمس، لذلك يسهل فهم الفكرة الأساسية. أما تحسين التوقيت والدقة فيحتاج إلى التدريب."}
   },
   {
-    "q": {
-      "en": "Are all jobs remote or available in every country?",
-      "ar": "هل جميع الوظائف عن بُعد أو متاحة في كل الدول؟"
-    },
-    "a": {
-      "en": "No. Work location and country eligibility depend on each employer and listing. Check the original vacancy for geographic restrictions and remote-work terms.",
-      "ar": "لا. يعتمد موقع العمل وأهلية الدول على كل صاحب عمل وإعلان. راجع الإعلان الأصلي لمعرفة القيود الجغرافية وشروط العمل عن بُعد."
-    }
+    "q": {"en": "Is Fruit Fury Slice a puzzle or arcade game?", "ar": "هل Fruit Fury Slice لعبة ألغاز أم أركيد؟"},
+    "a": {"en": "Google Play lists Fruit Fury Slice in the Arcade category.", "ar": "تصنف Google Play لعبة Fruit Fury Slice ضمن فئة ألعاب الأركيد."}
   },
   {
-    "q": {
-      "en": "Why might a job listing have no salary information?",
-      "ar": "لماذا قد لا يتضمن إعلان الوظيفة معلومات عن الراتب؟"
-    },
-    "a": {
-      "en": "Some employers do not publish compensation details. Treat the missing information as a question to clarify with the employer before proceeding.",
-      "ar": "لا ينشر بعض أصحاب العمل تفاصيل التعويض. اعتبر غيابها نقطة تحتاج إلى استيضاح من صاحب العمل قبل المتابعة."
-    }
+    "q": {"en": "Where can I download the game?", "ar": "من أين يمكنني تنزيل اللعبة؟"},
+    "a": {"en": "Download Fruit Fury Slice from its official Google Play listing using the download links on this website.", "ar": "نزّل Fruit Fury Slice من صفحتها الرسمية على Google Play باستخدام روابط التنزيل الموجودة في هذا الموقع."}
   },
   {
-    "q": {
-      "en": "Can I install Job Connect outside Google Play?",
-      "ar": "هل يمكنني تثبيت Job Connect من خارج Google Play؟"
-    },
-    "a": {
-      "en": "For the safest official installation route, use the Job Connect listing on Google Play linked from this website.",
-      "ar": "للحصول على مسار التثبيت الرسمي الأكثر أماناً، استخدم صفحة Job Connect على Google Play المرتبطة من هذا الموقع."
-    }
+    "q": {"en": "Who develops Fruit Fury Slice?", "ar": "من يطوّر Fruit Fury Slice؟"},
+    "a": {"en": "Fruit Fury Slice is published on Google Play by DevImpact.", "ar": "تنشر DevImpact لعبة Fruit Fury Slice على Google Play."}
   }
 ]
