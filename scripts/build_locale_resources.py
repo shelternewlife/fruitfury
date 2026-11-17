@@ -108,7 +108,7 @@ def render_page(locale, tail):
     title, description, heading, intro, cards = data["pages"][tail]
     labels = data["labels"]
     import build
-    flags = build.render_market_flags(tail, locale)
+    flags = '<div class="locale-switch" aria-label="Country and region">' + build.render_market_flags(tail, locale) + build.render_social_links() + '</div>'
     primary = build.TEXT["en"]
     nav_primary = [
         ("about", primary["about"]), ("features", primary["features"]),
