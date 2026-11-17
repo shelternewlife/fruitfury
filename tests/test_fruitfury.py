@@ -57,6 +57,10 @@ class FruitFuryContentTests(unittest.TestCase):
         locales = self.load("locales.json")
         for locale in strategy["published_locales"]:
             self.assertIn(locale, locales)
+            if locale not in ("en-US", "en-CA"):
+                self.assertEqual(len(locales[locale].get("features", [])), 4)
+                self.assertEqual(len(locales[locale].get("faq", [])), 12)
+                self.assertEqual(len(locales[locale].get("screenshots", [])), 4)
 
 if __name__ == "__main__":
     unittest.main()
