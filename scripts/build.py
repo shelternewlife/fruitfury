@@ -392,7 +392,6 @@ def main():
     if DIST.exists():
         shutil.rmtree(DIST)
     write(pathlib.Path("assets/style.css"), CSS)
-    shutil.copytree(ROOT / "assets/screens", DIST / "assets/screens")
     write(pathlib.Path("index.html"), render_language_root())
     for lang in ("en", "ar"):
         for section in ("home", "about", "features", "download", "faq"):
