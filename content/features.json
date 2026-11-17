@@ -1,7 +1,46 @@
 [
-{"id":"discovery","title":{"en":"Discover fresh opportunity signals","ar":"اكتشف إشارات الفرص الحديثة"},"description":{"en":"Explore a discovery feed with newly surfaced opportunities, freshness labels and alignment indicators.","ar":"استكشف موجز اكتشاف يبرز الفرص الحديثة ومؤشرات حداثة الإعلان والتوافق."}},
-{"id":"opportunity-cards","title":{"en":"Review opportunities at a glance","ar":"راجع الفرص بنظرة سريعة"},"description":{"en":"Compare roles, organizations, locations and compensation signals in focused opportunity cards.","ar":"قارن المسميات والجهات والمواقع ومؤشرات التعويضات ضمن بطاقات واضحة."}},
-{"id":"opportunity-intelligence","title":{"en":"Understand why an opportunity stands out","ar":"افهم لماذا تبرز فرصة معينة"},"description":{"en":"Inspect compensation, location, remote flexibility, freshness and the reasons surfaced by the app. Displayed values are indicators, not guarantees.","ar":"افحص مؤشرات الراتب والموقع والعمل عن بُعد والحداثة وأسباب إبراز التطبيق للفرصة. القيم مؤشرات وليست ضمانات."}},
-{"id":"derived-metrics","title":{"en":"Explore derived intelligence metrics","ar":"استكشف مؤشرات الذكاء المستنتجة"},"description":{"en":"Review data completeness, post freshness, uniqueness and competition indicators, alongside detected capabilities and requisites. These are estimates.","ar":"راجع مؤشرات اكتمال البيانات وحداثة الإعلان والتفرد والمنافسة والمهارات والمتطلبات المستنتجة. وهي تقديرات تحليلية."}},
-{"id":"collections","title":{"en":"Organize opportunities into collections","ar":"نظّم الفرص داخل مجموعات"},"description":{"en":"Create personal buckets such as Remote Hub, Elite Leap and My Watchlist to categorize and revisit opportunities.","ar":"أنشئ مجموعات مثل Remote Hub وElite Leap وMy Watchlist لتصنيف الفرص والعودة إليها."}}
+  {
+    "id": "precision-slicing",
+    "title": {
+      "en": "Slice flying fruit with precision",
+      "ar": "قطّع الفواكه المتطايرة بدقة"
+    },
+    "description": {
+      "en": "Swipe across the screen with responsive touch controls. Time each cut carefully and react quickly as fruit appears.",
+      "ar": "اسحب عبر الشاشة باستخدام عناصر تحكم سريعة الاستجابة. اختر توقيت كل ضربة بعناية وتفاعل بسرعة مع ظهور الفواكه."
+    }
+  },
+  {
+    "id": "combo-chains",
+    "title": {
+      "en": "Build bigger combo chains",
+      "ar": "اصنع سلاسل كومبو أكبر"
+    },
+    "description": {
+      "en": "Slice multiple fruits in quick succession to keep your streak alive, raise your score, and improve each run.",
+      "ar": "قطّع عدة فواكه بسرعة متتابعة للحفاظ على سلسلة الضربات ورفع نتيجتك وتحسين أدائك في كل جولة."
+    }
+  },
+  {
+    "id": "bomb-dodging",
+    "title": {
+      "en": "Avoid bombs and dangerous mistakes",
+      "ar": "تجنب القنابل والأخطاء الخطيرة"
+    },
+    "description": {
+      "en": "Not every object is safe to slice. Stay alert, identify bombs, and choose your swipes carefully to protect your run.",
+      "ar": "ليست كل الأجسام آمنة للتقطيع. ابقَ متيقظاً، وتعرّف على القنابل، واختر حركاتك بعناية لحماية جولتك."
+    }
+  },
+  {
+    "id": "levels-and-rewards",
+    "title": {
+      "en": "Progress through levels and earn rewards",
+      "ar": "تقدم عبر المستويات واجمع المكافآت"
+    },
+    "description": {
+      "en": "Face gradually faster and more demanding challenges, chase higher scores, and earn coins and gems as you play. The core arcade experience also supports offline play.",
+      "ar": "واجه تحديات تزداد سرعة وصعوبة تدريجياً، واسعَ لتحقيق نتائج أعلى، واكسب العملات والجواهر أثناء اللعب. كما تدعم تجربة الأركيد الأساسية اللعب دون اتصال."
+    }
+  }
 ]
