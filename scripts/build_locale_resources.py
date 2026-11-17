@@ -107,9 +107,8 @@ def render_page(locale, tail):
     data = CONTENT[locale]
     title, description, heading, intro, cards = data["pages"][tail]
     labels = data["labels"]
-    import build_locales
-    flags = build_locales.render_locale_flags(locale, tail)
     import build
+    flags = build.render_market_flags(tail, locale)
     primary = build.TEXT["en"]
     nav_primary = [
         ("about", primary["about"]), ("features", primary["features"]),
