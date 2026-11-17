@@ -15,110 +15,112 @@ GA_MEASUREMENT_ID = APP["ga4_measurement_id"]
 
 TEXT = {
     "en": {
-        "about": "About Job Connect",
+        "about": "About Fruit Fury Slice",
         "skip_to_content": "Skip to main content",
-        "features": "Explore the features",
+        "features": "Explore the game features",
         "faq": "Frequently asked questions",
         "download_nav": "Download",
-        "download_title": "Download Job Connect for Android",
-        "download_intro": "Get the official Job Connect Android app from Google Play and start exploring job opportunities, useful context and personal collections.",
-        "download_steps_title": "Install in three simple steps",
-        "download_step_1": "Open the official Google Play listing.",
+        "download_title": "Download Fruit Fury Slice for Android",
+        "download_intro": "Get the official Fruit Fury Slice arcade game on Google Play. Slice flying fruit, build combo chains, avoid bombs, and chase a higher score.",
+        "download_steps_title": "Start playing in three simple steps",
+        "download_step_1": "Open the official Fruit Fury Slice listing on Google Play.",
         "download_step_2": "Tap Install on your Android device.",
-        "download_step_3": "Open Job Connect and explore opportunities.",
-        "download_note": "For your security, install the app only through its official Google Play listing.",
-        "download_facts": "App information",
+        "download_step_3": "Open the game, start a run, and slice your first fruit.",
+        "download_note": "For the official version, install Fruit Fury Slice from its Google Play listing.",
+        "download_facts": "Game information",
         "platform": "Platform",
         "developer": "Developer",
         "package": "Package ID",
-        "home": "Discover your next opportunity",
-        "cta": "Open on Google Play",
-        "tag": "JOB OPPORTUNITY DISCOVERY",
-        "gallery": "A look inside the app",
-        "gallery_intro": "Real screenshots from the Google Play listing.",
-        "download": "Get started with Job Connect",
+        "home": "Slice. Combo. Conquer.",
+        "cta": "Play on Google Play",
+        "tag": "FRUIT-SLICING ARCADE GAME",
+        "gallery": "See Fruit Fury Slice in action",
+        "gallery_intro": "Screenshots from the official Google Play game listing.",
+        "download": "Ready to start slicing?",
         "privacy": "Privacy policy",
         "support": "Support",
-        "about_intro": "Learn what Job Connect is designed to help you discover and organize.",
-        "features_intro": "Explore the discovery and organization capabilities described for Job Connect.",
-        "faq_intro": "Answers to common questions about Job Connect.",
+        "about_intro": "A fast-paced arcade challenge built around timing, precision, quick reactions, and bigger combo scores.",
+        "features_intro": "Discover the core gameplay: precise fruit slicing, combo chains, bomb avoidance, and progressive challenges.",
+        "faq_intro": "Find answers about gameplay, rewards, offline play, and installing Fruit Fury Slice.",
         "language": "Choose your language",
         "english": "English",
         "arabic": "العربية",
-        "home_intro": "Explore job opportunities, review useful context and keep track of roles that matter to you.",
+        "home_intro": "Swipe through flying fruit, chain clean slices into combos, dodge dangerous bombs, and keep pushing your best score. Easy to start, challenging to master."
     },
     "ar": {
-        "about": "عن Job Connect",
+        "about": "حول Fruit Fury Slice",
         "skip_to_content": "تجاوز إلى المحتوى الرئيسي",
-        "features": "استكشف المزايا",
+        "features": "اكتشف مزايا اللعبة",
         "faq": "الأسئلة الشائعة",
-        "download_nav": "تنزيل التطبيق",
-        "download_title": "تنزيل Job Connect لنظام Android",
-        "download_intro": "احصل على تطبيق Job Connect الرسمي لنظام Android من Google Play، وابدأ باستكشاف فرص العمل وسياقها المفيد ومجموعاتك الشخصية.",
-        "download_steps_title": "ثبّت التطبيق في ثلاث خطوات بسيطة",
-        "download_step_1": "افتح صفحة التطبيق الرسمية على Google Play.",
+        "download_nav": "تنزيل اللعبة",
+        "download_title": "نزّل Fruit Fury Slice لنظام Android",
+        "download_intro": "احصل على لعبة الأركيد Fruit Fury Slice الرسمية من Google Play. قطّع الفواكه المتطايرة، وابنِ سلاسل كومبو، وتجنب القنابل، واسعَ إلى تحقيق نتيجة أعلى.",
+        "download_steps_title": "ابدأ اللعب في ثلاث خطوات بسيطة",
+        "download_step_1": "افتح صفحة Fruit Fury Slice الرسمية على Google Play.",
         "download_step_2": "اضغط على تثبيت من جهاز Android.",
-        "download_step_3": "افتح Job Connect وابدأ استكشاف الفرص.",
-        "download_note": "لحمايتك، ثبّت التطبيق من صفحته الرسمية على Google Play فقط.",
-        "download_facts": "معلومات التطبيق",
+        "download_step_3": "افتح اللعبة وابدأ جولة وقطّع أول فاكهة.",
+        "download_note": "للحصول على النسخة الرسمية، ثبّت Fruit Fury Slice من صفحتها على Google Play.",
+        "download_facts": "معلومات اللعبة",
         "platform": "النظام",
         "developer": "المطور",
         "package": "معرّف الحزمة",
-        "home": "اكتشف فرصتك المهنية القادمة",
-        "cta": "افتح التطبيق على Google Play",
-        "tag": "اكتشاف فرص العمل",
-        "gallery": "نظرة إلى واجهة التطبيق",
-        "gallery_intro": "لقطات شاشة فعلية منشورة في صفحة التطبيق على Google Play.",
-        "download": "ابدأ مع Job Connect",
+        "home": "قطّع. اصنع كومبو. انتصر.",
+        "cta": "العب على Google Play",
+        "tag": "لعبة أركيد لتقطيع الفواكه",
+        "gallery": "شاهد Fruit Fury Slice أثناء اللعب",
+        "gallery_intro": "لقطات شاشة من صفحة اللعبة الرسمية على Google Play.",
+        "download": "هل أنت مستعد لتقطيع الفواكه؟",
         "privacy": "سياسة الخصوصية",
         "support": "الدعم",
-        "about_intro": "تعرّف على Job Connect وما صُمم لمساعدتك على اكتشافه وتنظيمه.",
-        "features_intro": "استكشف إمكانات الاكتشاف والتنظيم الموضحة لتطبيق Job Connect.",
-        "faq_intro": "إجابات عن الأسئلة الشائعة حول Job Connect.",
+        "about_intro": "تحدٍ سريع من ألعاب الأركيد يعتمد على التوقيت والدقة وسرعة الاستجابة وتحقيق سلاسل كومبو أكبر.",
+        "features_intro": "اكتشف أساسيات اللعب: تقطيع الفواكه بدقة، وسلاسل الكومبو، وتجنب القنابل، والتحديات المتدرجة.",
+        "faq_intro": "اعثر على إجابات حول طريقة اللعب والمكافآت واللعب دون اتصال وتثبيت Fruit Fury Slice.",
         "language": "اختر لغتك",
         "english": "English",
         "arabic": "العربية",
-        "home_intro": "استكشف فرص العمل وراجع سياقها المفيد واحتفظ بالوظائف التي تهمك للمتابعة.",
-    },
+        "home_intro": "اسحب لتقطيع الفواكه المتطايرة، واجمع الضربات الدقيقة في سلاسل كومبو، وتجنب القنابل الخطيرة، وواصل تحسين أفضل نتيجة لك. سهلة البداية، وتتطلب مهارة لإتقانها."
+    }
 }
 
 PAGE_TITLES = {
     "en": {
-        "home": "Job Search App for Finding Work Opportunities | Job Connect",
-        "about": "Job Connect: About the Job Search and Opportunity Discovery App",
-        "features": "Job Search App Features: Discover, Compare and Organize Jobs | Job Connect",
-        "download": "Download Job Connect: Android Job Search App | Google Play",
-        "faq": "Job Connect FAQ: Job Search, Job Listings and App Features",
+        "home": "Fruit Fury Slice | Fruit Slicing Arcade Game",
+        "about": "About Fruit Fury Slice | Android Arcade Game",
+        "features": "Fruit Fury Slice Features | Slice, Combo and Dodge",
+        "download": "Download Fruit Fury Slice for Android | Google Play",
+        "faq": "Fruit Fury Slice FAQ | Gameplay and Download"
     },
     "ar": {
-        "home": "البحث عن عمل واكتشاف الوظائف | Job Connect",
-        "about": "Job Connect: تطبيق للبحث عن عمل واكتشاف الوظائف",
-        "features": "مزايا تطبيق Job Connect لاكتشاف فرص العمل وتنظيمها",
-        "download": "تنزيل تطبيق Job Connect للبحث عن عمل | Google Play",
-        "faq": "الأسئلة الشائعة حول Job Connect والبحث عن الوظائف",
-    },
+        "home": "Fruit Fury Slice | لعبة تقطيع الفواكه",
+        "about": "حول Fruit Fury Slice | لعبة أركيد للأندرويد",
+        "features": "مزايا Fruit Fury Slice | تقطيع الفواكه والكومبو",
+        "download": "تنزيل Fruit Fury Slice للأندرويد | Google Play",
+        "faq": "الأسئلة الشائعة حول Fruit Fury Slice | اللعب والتنزيل"
+    }
 }
 
 PAGE_DESCRIPTIONS = {
     "en": {
-        "home": "Explore job opportunities, compare role details and organize jobs to follow with Job Connect, an Android job search app.",
-        "about": "Learn how the Job Connect Android app helps you discover job listings, review opportunity details and organize roles to follow.",
-        "features": "Explore job search tools for discovering fresh opportunities, comparing job details, reviewing indicators and organizing job listings.",
-        "download": "Download Job Connect, an Android job search app for discovering and organizing job opportunities. Install it from Google Play.",
-        "faq": "Get answers about job listings, opportunity indicators, personal collections and downloading the Job Connect Android app.",
+        "home": "Play Fruit Fury Slice, a fast-paced Android arcade game. Slice flying fruit, build combos, avoid bombs, earn coins and gems, and play offline.",
+        "about": "Learn about Fruit Fury Slice, the fruit-slicing arcade game built around precise swipes, combo chains, bomb avoidance and progressive levels.",
+        "features": "Explore Fruit Fury Slice gameplay features: responsive fruit slicing, combo scoring, bomb avoidance, progressive levels, coins, gems and offline play.",
+        "download": "Download Fruit Fury Slice for Android from Google Play. Slice fruit, build combos, dodge bombs and chase higher scores.",
+        "faq": "Answers about Fruit Fury Slice gameplay, combo chains, bombs, levels, coins, gems, ads, offline play and downloading."
     },
     "ar": {
-        "home": "اكتشف فرص العمل والوظائف الشاغرة، وراجع تفاصيلها ونظّم الفرص التي تريد متابعتها باستخدام تطبيق Job Connect لنظام Android.",
-        "about": "تعرّف على تطبيق Job Connect للبحث عن عمل واكتشاف إعلانات الوظائف ومراجعة تفاصيل الفرص وتنظيمها.",
-        "features": "اكتشف أدوات البحث عن وظائف: متابعة الفرص الحديثة ومقارنة تفاصيل الوظائف ومراجعة المؤشرات وتنظيم إعلانات العمل.",
-        "download": "نزّل تطبيق Job Connect للبحث عن عمل واكتشاف فرص العمل على Android من صفحة Google Play الرسمية.",
-        "faq": "إجابات عن البحث عن وظائف وإعلانات العمل ومؤشرات الفرص والمجموعات وتنزيل تطبيق Job Connect.",
-    },
+        "home": "العب Fruit Fury Slice، لعبة أركيد سريعة للأندرويد. قطّع الفواكه المتطايرة، واصنع سلاسل كومبو، وتجنب القنابل، واجمع العملات والجواهر، والعب دون اتصال.",
+        "about": "تعرّف على Fruit Fury Slice، لعبة تقطيع الفواكه التي تعتمد على السحب الدقيق وسلاسل الكومبو وتجنب القنابل والمستويات المتدرجة.",
+        "features": "استكشف مزايا Fruit Fury Slice: تقطيع الفواكه باللمس، ورفع النتيجة بالكومبو، وتجنب القنابل، والمستويات المتدرجة، والعملات والجواهر واللعب دون اتصال.",
+        "download": "نزّل Fruit Fury Slice للأندرويد من Google Play. قطّع الفواكه، واصنع سلاسل كومبو، وتجنب القنابل، واسعَ إلى نتائج أعلى.",
+        "faq": "إجابات حول طريقة لعب Fruit Fury Slice وسلاسل الكومبو والقنابل والمستويات والعملات والجواهر والإعلانات واللعب دون اتصال والتنزيل."
+    }
 }
 
 CSS = """*{box-sizing:border-box}body{margin:0;background:#080b12;color:#f4f7fb;font:16px/1.75 system-ui,sans-serif}a{color:inherit}a:focus-visible{outline:3px solid #00c4df;outline-offset:4px}.btn{min-height:48px;display:inline-flex;align-items:center;justify-content:center}.skip-link{position:absolute;z-index:10;top:8px;left:8px;padding:10px 14px;background:#00c4df;color:#061018;border-radius:8px;font-weight:800;transform:translateY(-160%)}.skip-link:focus{transform:translateY(0)}header,main,footer{width:min(1120px,calc(100% - 36px));margin:auto}header{display:flex;flex-direction:row;justify-content:flex-start;align-items:center;gap:18px;flex-wrap:wrap;padding:22px 0;border-bottom:1px solid #263246}.home-header{flex-direction:column;align-items:flex-start;gap:0}.home-header>.header-main{align-self:stretch;width:100%}.standard-header .locale-switch{margin:0;flex:0 0 auto}.home-header .locale-switch{margin:0 0 12px}.brand{font-weight:900;text-decoration:none;letter-spacing:.08em}.brand b,.tag{color:#00c4df}nav{display:flex;gap:22px;flex-wrap:wrap}nav a{color:#c4ccda;text-decoration:none;display:inline-flex;align-items:center;min-height:44px;padding:8px 0}.hero{padding:70px 0;display:grid;grid-template-columns:1fr .8fr;gap:44px;align-items:center}.tag{font-size:.8rem;letter-spacing:.16em;font-weight:700}.hero h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.12;margin:18px 0}.lead,.muted{color:#aab6c8}.btn{display:inline-block;background:#00c4df;color:#061018;text-decoration:none;padding:13px 20px;border-radius:9px;font-weight:800;margin-top:20px}.preview{padding:16px;background:#121a28;border:1px solid #29364b;border-radius:22px;text-align:center}.preview img{height:480px;max-width:100%;object-fit:contain;border-radius:12px}.section{padding:48px 0;border-top:1px solid #ffffff18}.section h2{font-size:2rem}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.item,.faq{background:#111925;border:1px solid #283449;border-radius:14px;padding:22px}.item h3,.faq h3{margin-top:0}.item p,.faq p{color:#aab6c8}.feature-shot{display:block;width:100%;max-height:230px;object-fit:contain;object-position:left center;background:#080b12;border-radius:9px;margin:0 0 16px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step{background:#111925;border:1px solid #283449;border-radius:14px;padding:20px}.step b{display:block;color:#00c4df;font-size:1.3rem}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.fact{padding:16px;background:#111925;border:1px solid #283449;border-radius:12px;overflow-wrap:anywhere}.fact small{display:block;color:#aab6c8}.download-hero{padding:58px 0;display:grid;grid-template-columns:1fr .65fr;gap:36px;align-items:center}.download-hero h1{font-size:clamp(2.2rem,5vw,3.8rem);line-height:1.15}.num{color:#00c4df;font:700 .8rem monospace}.faqgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px}.shot{margin:0;padding:12px;background:#111925;border:1px solid #283449;border-radius:14px}.shot img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;background:#080b12;border-radius:9px}.shot figcaption{padding:10px 2px 2px;color:#d6deeb;font-size:.92rem;line-height:1.5}.end{text-align:center;background:#11242d;border:1px solid #236071;border-radius:18px;padding:34px}.language{min-height:70vh;display:grid;place-items:center;text-align:center}.language a{display:inline-block;margin:8px;padding:14px 22px;border:1px solid #236071;border-radius:10px;text-decoration:none}footer{padding:30px 0;color:#aab6c8;border-top:1px solid #ffffff18;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.locale-switch{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:9px;width:100%;margin:0 0 12px}.header-main>.locale-switch{flex:0 0 100%;margin:0 0 10px}.social-links{display:flex;align-items:center;justify-content:flex-end;gap:10px;margin-inline-start:auto}.social-link{width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;border:1px solid #34445c;border-radius:9px;background:#111925;color:#dce6f4;text-decoration:none;transition:border-color .15s,transform .15s}.social-link:hover,.social-link:focus-visible{border-color:#00c4df;color:#00c4df;transform:translateY(-1px)}.social-link svg{width:19px;height:19px;fill:currentColor}.social-link:focus-visible{outline:3px solid #00c4df;outline-offset:3px}.locale-flag{width:42px;height:34px;display:inline-flex;align-items:center;justify-content:center;border:1px solid #34445c;border-radius:9px;background:#111925;text-decoration:none;line-height:1;transition:border-color .15s,transform .15s}.locale-flag img{display:block;width:28px;height:21px;object-fit:cover;border-radius:2px}.locale-flag:hover,.locale-flag:focus-visible{border-color:#00c4df;transform:translateY(-1px)}.locale-flag[aria-current="page"]{border-color:#00c4df;box-shadow:0 0 0 1px #00c4df55}.header-main{display:flex;justify-content:space-between;align-items:center;gap:18px;flex:1;min-width:0;flex-wrap:wrap}.header-main>nav{margin-inline-start:auto;justify-content:flex-end}.language-header{justify-content:flex-start;align-items:flex-start}.language-header .locale-switch{margin:0}html[dir=rtl] body{text-align:right}html[dir=rtl] header{direction:rtl}html[dir=rtl] .locale-switch{justify-content:flex-start}@media(max-width:760px){.hero,.download-hero{grid-template-columns:1fr;padding:42px 0}.preview img{height:360px}.grid,.faqgrid,.steps,.facts{grid-template-columns:1fr}header.standard-header{flex-direction:row;align-items:center;gap:10px}.standard-header .header-main{flex:1 1 260px;align-items:center;flex-direction:row;flex-wrap:wrap}.home-header{align-items:flex-start;flex-direction:column}.home-header .header-main{align-items:flex-start;flex-direction:column}nav{gap:14px}}"""
 
 def render_analytics():
+    if not GA_MEASUREMENT_ID:
+        return ""
     return """<script async src="https://www.googletagmanager.com/gtag/js?id=__GA_ID__"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -149,20 +151,9 @@ def page_url(lang, section="home"):
 
 
 def render_social_links():
-    items = (
-        ("Facebook", "https://www.facebook.com/", '<path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.2V10H7.3v3h2.8v8z"/>'),
-        ("X", "https://x.com/", '<path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3L12 14.6 5.5 22H2.4l7.3-8.4L1.9 2h6.5l4.4 6.8zm-1.1 18h1.7L7.4 3.9H5.6z"/>'),
-        ("TikTok", "https://www.tiktok.com/", '<path d="M19.6 7.2a6.9 6.9 0 0 1-4.2-1.4v8.1a6.1 6.1 0 1 1-6.1-6.1c.4 0 .8 0 1.2.1v3.4a2.8 2.8 0 1 0 1.6 2.6V2h3.4a3.9 3.9 0 0 0 4.1 3.7z"/>'),
-        ("Instagram", "https://www.instagram.com/", '<rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="18" cy="6.5" r="1.2"/>'),
-    )
-    links = []
-    for label, url, artwork in items:
-        links.append(
-            f'<a class="social-link" href="{url}" target="_blank" rel="noopener noreferrer" '
-            f'aria-label="{label}" title="{label}"><svg viewBox="0 0 24 24" aria-hidden="true" '
-            f'focusable="false">{artwork}</svg></a>'
-        )
-    return '<div class="social-links" aria-label="Social media">' + "".join(links) + '</div>'
+    # No official social profile URLs are published for this game yet.
+    # Keep the container for the locale-selector layout without linking to generic platform homepages.
+    return '<div class="social-links" aria-label="Social media"></div>'
 
 def render_market_flags(tail="", current=None):
     import build_locales
@@ -182,7 +173,7 @@ def render_header(lang, section):
     switch = render_market_flags(tail)
     return (
         f'<header class="{"home-header" if section == "home" else "standard-header"}"><div class="locale-switch" aria-label="Country and region">{switch}{render_social_links()}</div>'
-        f'<div class="header-main"><a class="brand" href="{BASE_URL}/">JOB <b>CONNECT</b></a>'
+        f'<div class="header-main"><a class="brand" href="{BASE_URL}/">FRUIT <b>FURY</b></a>'
         f'<nav aria-label="Primary navigation">'
         f'<details class="nav-menu" data-nav-group="primary"><summary>{"Explore" if lang == "en" else "استكشف"}</summary>'
         f'<div class="nav-dropdown">{nav}</div></details>'
@@ -196,7 +187,7 @@ def render_features(lang):
         cards.append(
             f'<article class="item" id="feature-{esc(feature["id"])}">'
             f'<div class="num">{index:02d} / FEATURE</div>'
-            f'<img class="feature-shot" src="{esc(SCREENSHOTS[index - 1]["src"])}" width="526" height="296" '
+            f'<img class="feature-shot" src="{esc(SCREENSHOTS[index - 1]["src"])}" width="176" height="296" '
             f'alt="{esc(SCREENSHOTS[index - 1]["alt"][lang])}" loading="lazy" decoding="async">'
             f'<h2><a href="{detail_url}">{esc(feature["title"][lang])}</a></h2>'
             f'<p>{esc(feature["description"][lang])}</p>'
@@ -218,7 +209,7 @@ def render_gallery(lang):
     cards = []
     for screenshot in SCREENSHOTS:
         cards.append(
-            f'<figure class="shot"><img src="{esc(screenshot["src"])}" width="526" height="296" '
+            f'<figure class="shot"><img src="{esc(screenshot["src"])}" width="176" height="296" '
             f'alt="{esc(screenshot["alt"][lang])}" loading="lazy" decoding="async">'
             f'<figcaption>{esc(screenshot["caption"][lang])}</figcaption></figure>'
         )
@@ -231,13 +222,13 @@ def render_gallery(lang):
 def render_download(lang):
     t = TEXT[lang]
     return (
-        f'<section class="download-hero"><div><div class="tag">JOB CONNECT · ANDROID</div>'
+        f'<section class="download-hero"><div><div class="tag">FRUIT FURY SLICE · ANDROID</div>'
         f'<h1>{t["download_title"]}</h1><p class="lead">{esc(t["download_intro"])}</p>'
         f'<a class="btn" href="{esc(APP["google_play_url"])}" '
         f'target="_blank" rel="noopener noreferrer" aria-label="{esc(t["cta"])}" '
         f'data-analytics-event="google_play_click" data-cta-location="download_hero">{t["cta"]}</a>'
         f'<p class="muted">{esc(t["download_note"])}</p></div>'
-        f'<div class="preview"><img src="{esc(SCREENSHOTS[0]["src"])}" width="526" height="296" '
+        f'<div class="preview"><img src="{esc(SCREENSHOTS[0]["src"])}" width="176" height="296" '
         f'alt="{esc(SCREENSHOTS[0]["alt"][lang])}" loading="eager" decoding="async"></div></section>'
         f'<section class="section"><h2>{t["download_steps_title"]}</h2><div class="steps">'
         f'<article class="step"><b>01</b>{esc(t["download_step_1"])}</article>'
@@ -265,14 +256,14 @@ def render_content(lang, section):
             f'<h1>{esc(t["home"])}</h1><p class="lead">{esc(t["home_intro"])}</p>'
             f'<a class="btn" href="{esc(APP["google_play_url"])}" '
             f'data-analytics-event="google_play_click" data-cta-location="home_hero">{t["cta"]}</a></div>'
-            f'<div class="preview"><img src="{image}" width="526" height="296" alt="{esc(SCREENSHOTS[0]["alt"][lang])}" loading="eager" fetchpriority="high" decoding="async"></div></section>'
+            f'<div class="preview"><img src="{image}" width="176" height="296" alt="{esc(SCREENSHOTS[0]["alt"][lang])}" loading="eager" fetchpriority="high" decoding="async"></div></section>'
             f'{render_gallery(lang)}'
             f'<section class="section"><h2>{t["features"]}</h2>{render_features(lang)}'
             f'<p><a href="{page_url(lang, "features")}">{t["features"]}</a></p></section>'
         )
     if section == "about":
         return (
-            f'<section class="section"><div class="tag">JOB CONNECT</div>'
+            f'<section class="section"><div class="tag">FRUIT FURY SLICE</div>'
             f'<h1>{t["about"]}</h1><p class="lead">{esc(APP["description"][lang])}</p>'
             f'<p>{esc(t["about_intro"])}</p>'
             f'<p><strong>{esc(APP["developer"])}</strong></p>'
@@ -281,7 +272,7 @@ def render_content(lang, section):
         )
     if section == "features":
         return (
-            f'<section class="section"><div class="tag">JOB CONNECT · ANDROID</div>'
+            f'<section class="section"><div class="tag">FRUIT FURY SLICE · ANDROID</div>'
             f'<h1>{t["features"]}</h1><p class="lead">{t["features_intro"]}</p>'
             f'{render_features(lang)}'
             f'<section class="section end"><h2>{t["download"]}</h2>'
@@ -293,7 +284,7 @@ def render_content(lang, section):
         return render_download(lang)
     if section == "faq":
         return (
-            f'<section class="section"><div class="tag">JOB CONNECT</div>'
+            f'<section class="section"><div class="tag">FRUIT FURY SLICE</div>'
             f'<h1>{t["faq"]}</h1><p class="lead">{t["faq_intro"]}</p>'
             f'{render_faq(lang)}</section>'
             f'<section class="section end"><h2>{t["download"]}</h2>'
@@ -316,7 +307,8 @@ def render_page(lang, section):
     software = {
         "@type": "SoftwareApplication", "@id": f"{BASE_URL}/#softwareapplication",
         "name": APP["name"], "operatingSystem": "Android",
-        "applicationCategory": "BusinessApplication",
+        "applicationCategory": "GameApplication",
+        "genre": APP["category"],
         "description": APP["description"][lang],
         "downloadUrl": APP["google_play_url"], "installUrl": APP["google_play_url"],
         "url": canonical, "image": SCREENSHOTS[0]["src"],
@@ -368,27 +360,26 @@ def render_page(lang, section):
 <a class="skip-link" href="#main-content">{t["skip_to_content"]}</a>
 {render_header(lang, section)}
 <main id="main-content">{content}</main>
-<footer><span>© DevImpact · JOB CONNECT</span>
+<footer><span>© DevImpact · FRUIT FURY SLICE</span>
 <span><a href="{esc(APP["privacy_policy_url"])}">{t["privacy"]}</a> ·
 <a href="mailto:{esc(APP["support_email"])}">{t["support"]}</a></span></footer>
 </body>
 </html>'''
 
 def render_language_root():
-    target = f"{BASE_URL}/en-us/about/"
+    target = f"{BASE_URL}/en-us/"
     return f'''<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="google-site-verification" content="8mOiNMu4Tn477yFaR-IWrNQGhdqH1TpF6NKKoN94Oms">
 <meta name="robots" content="noindex,follow">
-<title>Job Connect</title>
+<title>Fruit Fury Slice</title>
 <link rel="canonical" href="{target}">
 <meta http-equiv="refresh" content="0; url={target}">
 <script>window.location.replace("{target}");</script>
 </head>
-<body><p><a href="{target}">Continue to Job Connect</a></p></body>
+<body><p><a href="{target}">Continue to Fruit Fury Slice</a></p></body>
 </html>'''
 
 def write(relative_path, content):
@@ -400,7 +391,6 @@ def main():
     if DIST.exists():
         shutil.rmtree(DIST)
     write(pathlib.Path("assets/style.css"), CSS)
-    shutil.copytree(ROOT / "assets/screens", DIST / "assets/screens")
     write(pathlib.Path("index.html"), render_language_root())
     for lang in ("en", "ar"):
         for section in ("home", "about", "features", "download", "faq"):
@@ -432,7 +422,7 @@ def main():
     sitemap_txt = "\n".join(url for url, _, _ in sitemap_entries) + "\n"
     write(pathlib.Path("sitemap.txt"), sitemap_txt)
     write(pathlib.Path("llms.txt"), (
-        f"# Job Connect\n\n{APP['description']['en']}\n\n"
+        f"# Fruit Fury Slice\n\n{APP['description']['en']}\n\n"
         f"- Google Play: {APP['google_play_url']}\n"
         f"- English: {page_url('en')}\n- Arabic: {page_url('ar')}\n"
     ))

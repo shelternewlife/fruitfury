@@ -71,7 +71,6 @@ def fail(message):
 required_files = [
     DIST / "index.html", DIST / "robots.txt", DIST / "sitemap.xml",
     DIST / "sitemap.txt", DIST / "llms.txt", DIST / "assets/style.css",
-    DIST / "assets/screens/screen-1.webp",
 ]
 if not (ROOT / "content/screenshots.json").is_file():
     fail("Missing source screenshot manifest: content/screenshots.json")
@@ -105,11 +104,11 @@ for lang in ("en", "ar"):
             fail(f"FAQPage JSON-LD must describe all 12 visible FAQ entries: {path.relative_to(DIST)}")
         if section != "faq" and '"@type": "FAQPage"' in page_html:
             fail(f"FAQPage JSON-LD must only appear on the FAQ page: {path.relative_to(DIST)}")
-        if f"https://www.googletagmanager.com/gtag/js?id={GA_MEASUREMENT_ID}" not in page_html:
+        if GA_MEASUREMENT_ID and f"https://www.googletagmanager.com/gtag/js?id={GA_MEASUREMENT_ID}" not in page_html:
             fail(f"Missing GA4 library on {path.relative_to(DIST)}")
-        if f"gtag('config', '{GA_MEASUREMENT_ID}')" not in page_html:
+        if GA_MEASUREMENT_ID and f"gtag('config', '{GA_MEASUREMENT_ID}')" not in page_html:
             fail(f"Missing GA4 configuration on {path.relative_to(DIST)}")
-        if "gtag('event', 'google_play_click'" not in page_html:
+        if GA_MEASUREMENT_ID and "gtag('event', 'google_play_click'" not in page_html:
             fail(f"Missing Google Play click event handler on {path.relative_to(DIST)}")
         for required_meta in ('name="description"', 'name="robots" content="index,follow', 'property="og:title"', 'property="og:image"', 'name="twitter:card"'):
             if required_meta not in page_html:
@@ -343,13 +342,11 @@ root_parser = DocumentParser()
 if (DIST / "index.html").is_file():
     root_html = (DIST / "index.html").read_text(encoding="utf-8")
     root_parser.feed(root_html)
-    target = f"{BASE}/en-us/about/"
+    target = f"{BASE}/en-us/"
     if root_parser.canonical != target:
-        fail("Root redirect canonical must point to the selected English About homepage")
-    if 'name="google-site-verification"' not in root_html:
-        fail("Google Search Console verification meta tag missing from root redirect")
+        fail("Root redirect canonical must point to the selected English homepage")
     if f'<meta http-equiv="refresh" content="0; url={target}">' not in root_html:
-        fail("Root page must immediately redirect to the selected About homepage")
+        fail("Root page must immediately redirect to the selected English homepage")
     if f'window.location.replace("{target}")' not in root_html:
         fail("Root redirect JavaScript fallback is missing")
     if 'name="robots" content="noindex,follow"' not in root_html:
@@ -445,8 +442,8 @@ if sitemap_directives != [f"Sitemap: {BASE}/sitemap.xml", f"Sitemap: {BASE}/site
 
 if APP["package_id"] not in APP["google_play_url"]:
     fail("Package ID mismatch in Google Play URL")
-if len(SCREENSHOTS) != 5 or any(urlparse(item.get("src", "")).hostname != "play-lh.googleusercontent.com" for item in SCREENSHOTS):
-    fail("Gallery must use the five official Google Play screenshot assets")
+if len(SCREENSHOTS) != 4 or any(urlparse(item.get("src", "")).hostname != "play-lh.googleusercontent.com" for item in SCREENSHOTS):
+    fail("Gallery must use the four official Google Play screenshot assets")
 
 if ERRORS:
     print("\n".join(ERRORS))

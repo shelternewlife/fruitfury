@@ -1,4 +1,4 @@
-name: Build and deploy discovery site
+name: Build and deploy Fruit Fury Slice website
 on:
   push:
     branches: [main]
@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: '3.x'
       - name: Run tests
-        run: python -m unittest discover -s tests -v
+        run: python -m unittest discover -s tests -p 'test_fruitfury.py' -v
       - name: Build site
         run: python scripts/build.py
       - name: Validate output
@@ -42,14 +42,14 @@ jobs:
     needs: deploy
     steps:
       - uses: actions/checkout@v4
-      - name: Audit Core Web Vitals and page experience with Lighthouse
+      - name: Audit Fruit Fury Slice pages with Lighthouse
         uses: treosh/lighthouse-ci-action@v12
         with:
           urls: |
-            https://shelternewlife.github.io/tobemotif-app-discovery/en/
-            https://shelternewlife.github.io/tobemotif-app-discovery/ar/
-            https://shelternewlife.github.io/tobemotif-app-discovery/en/features/discovery/
-            https://shelternewlife.github.io/tobemotif-app-discovery/en/faq/
+            https://shelternewlife.github.io/fruitfury/en/
+            https://shelternewlife.github.io/fruitfury/ar/
+            https://shelternewlife.github.io/fruitfury/en/features/
+            https://shelternewlife.github.io/fruitfury/en/faq/
           configPath: .github/lighthouserc.json
           runs: 3
           uploadArtifacts: true

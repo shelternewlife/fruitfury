@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "purpose": "Market and locale planning registry. This file does not publish locale routes; a locale becomes indexable only after its complete translated pages, metadata, navigation, canonical and reciprocal hreflang are generated and validated.",
+  "purpose": "Market and locale planning registry for Fruit Fury Slice. A locale is published only when its translated game pages, metadata, navigation, canonical URLs and reciprocal hreflang are generated and validated.",
   "market_priority": {
     "1": "United States and Canada",
-    "2": "All European countries, including multilingual and non-EU countries listed below"
+    "2": "European countries and their supported languages"
   },
   "url_policy": {
     "pattern": "/{locale}/",
@@ -19,7 +19,7 @@
     "canonical": "Each translated page has a self-referencing canonical URL.",
     "hreflang": "Emit reciprocal hreflang links only among equivalent pages that are genuinely available in each locale; include x-default for the global language selector or default landing page.",
     "fallback": "Do not silently serve English or another language under a locale URL. Untranslated locales remain unpublished and absent from sitemaps.",
-    "country_targeting": "A locale identifies language and regional presentation; it is not a claim that the app contains vacancies or supports hiring in that country."
+    "country_targeting": "A locale identifies language and regional presentation. It does not claim region-exclusive game features or availability beyond the official Google Play listing."
   },
   "markets": [
     {
@@ -517,376 +517,205 @@
     "en-US": {
       "language": "English (United States)",
       "market": "United States",
-      "intent": "Discover and evaluate job opportunities with an Android app; do not imply a guaranteed live inventory, application service or job-board comparison.",
+      "intent": "Reach players looking for fruit-slicing arcade games and Android gameplay.",
       "primary": [
-        "job search app",
-        "job opportunities",
-        "job opportunity discovery app"
+        "fruit slicing game",
+        "fruit cutting game",
+        "Fruit Fury Slice"
       ],
       "secondary": [
-        "Android job search app",
-        "discover job opportunities",
-        "job listings",
-        "organize job opportunities"
+        "fruit slicing arcade game",
+        "slice fruit avoid bombs",
+        "fruit combo game",
+        "offline fruit arcade game"
       ],
       "excluded_terms": [
-        "best job search apps",
-        "jobs hiring now",
-        "remote jobs",
-        "entry level jobs",
-        "jobs near me",
-        "guaranteed jobs"
+        "best fruit games",
+        "online multiplayer fruit game",
+        "fruit match 3 puzzle",
+        "fruit ninja cheats"
       ],
-      "exclusion_reason": "These imply comparison rankings, live hiring inventory, geographic availability, or specialist filters that are not verified as core app capabilities.",
-      "clusters": [
-        {
-          "intent": "app discovery",
-          "primary": [
-            "job search app",
-            "job opportunities"
-          ],
-          "secondary": [
-            "Android job search app",
-            "discover job opportunities"
-          ]
-        },
-        {
-          "intent": "opportunity discovery and organization",
-          "primary": [
-            "job opportunity discovery app"
-          ],
-          "secondary": [
-            "job listings",
-            "organize job opportunities"
-          ]
-        }
-      ]
+      "exclusion_reason": "Avoid unsupported claims about rankings, multiplayer, match-3 mechanics or cheats."
     },
     "en-CA": {
       "language": "English (Canada)",
       "market": "Canada",
-      "intent": "Localize terminology for Canadian English while describing discovery and review features without promising Canadian vacancy coverage.",
+      "intent": "Describe the arcade fruit-slicing game naturally for Canadian English.",
       "primary": [
-        "job search app Canada",
-        "job search app",
-        "job postings",
-        "job opportunities"
+        "fruit slicing game",
+        "fruit cutting game",
+        "Fruit Fury Slice"
       ],
       "secondary": [
-        "Android job search app",
-        "employment opportunities",
-        "discover job opportunities",
-        "organize job postings"
+        "Android fruit arcade game",
+        "fruit slicing combos",
+        "offline fruit game"
       ],
       "excluded_terms": [
-        "find jobs in Canada",
-        "jobs in Canada",
-        "jobs hiring now",
-        "remote jobs Canada",
-        "entry level jobs Canada"
+        "best fruit games",
+        "multiplayer fruit game",
+        "fruit match 3"
       ],
-      "exclusion_reason": "Avoid claims that the app guarantees Canadian inventory, current hiring, remote-only listings or entry-level coverage until verified against live app data.",
-      "clusters": [
-        {
-          "intent": "app discovery",
-          "primary": [
-            "job search app Canada",
-            "job search app"
-          ],
-          "secondary": [
-            "Android job search app",
-            "employment opportunities"
-          ]
-        },
-        {
-          "intent": "opportunity discovery and organization",
-          "primary": [
-            "job postings",
-            "job opportunities"
-          ],
-          "secondary": [
-            "discover job opportunities",
-            "organize job postings"
-          ]
-        }
-      ]
+      "exclusion_reason": "Do not imply unsupported rankings, multiplayer or match-3 gameplay."
     },
     "fr-CA": {
-      "language": "Français canadien",
+      "language": "Français (Canada)",
       "market": "Canada",
-      "intent": "Use natural Canadian French terms for job-search discovery and opportunity organization; do not imply guaranteed local vacancy coverage.",
+      "intent": "Reach French-speaking players interested in fruit-slicing arcade games.",
       "primary": [
-        "application de recherche d’emploi",
-        "application pour trouver un emploi",
-        "offres d’emploi"
+        "jeu de découpe de fruits",
+        "jeu arcade fruits",
+        "Fruit Fury Slice"
       ],
       "secondary": [
-        "possibilités d’emploi",
-        "recherche d’emploi",
-        "application Android pour l’emploi",
-        "organiser les offres d’emploi"
+        "jeu de fruits Android",
+        "combos de fruits",
+        "jeu hors ligne"
       ],
       "excluded_terms": [
-        "emplois au Canada",
-        "emplois à distance",
-        "emplois débutant",
-        "emplois près de moi",
-        "meilleure application de recherche d’emploi"
+        "meilleur jeu de fruits",
+        "jeu multijoueur"
       ],
-      "exclusion_reason": "These can imply a verified Canadian job inventory, remote or entry-level filters, nearby listings or an unsupported comparative ranking.",
-      "clusters": [
-        {
-          "intent": "app discovery",
-          "primary": [
-            "application de recherche d’emploi",
-            "application pour trouver un emploi"
-          ],
-          "secondary": [
-            "possibilités d’emploi",
-            "recherche d’emploi"
-          ]
-        },
-        {
-          "intent": "opportunity discovery and organization",
-          "primary": [
-            "offres d’emploi"
-          ],
-          "secondary": [
-            "application Android pour l’emploi",
-            "organiser les offres d’emploi"
-          ]
-        }
-      ]
-    },
-    "es-ES": {
-      "language": "Français (France)",
-      "market": "Spain",
-      "intent": "Describe verified opportunity discovery and organization without claiming guaranteed local vacancy inventory or application services.",
-      "primary": [
-        "aplicación para buscar empleo",
-        "ofertas de empleo"
-      ],
-      "secondary": [
-        "buscar trabajo",
-        "organizar oportunidades"
-      ],
-      "excluded_terms": [
-        "remote jobs",
-        "jobs hiring now",
-        "guaranteed jobs"
-      ],
-      "exclusion_reason": "Remote-work availability and country-specific vacancy coverage are not guaranteed by the app.",
-      "clusters": [
-        {
-          "intent": "app discovery",
-          "primary": [
-            "aplicación para buscar empleo",
-            "ofertas de empleo"
-          ],
-          "secondary": [
-            "buscar trabajo",
-            "organizar oportunidades"
-          ]
-        }
-      ]
-    },
-    "pt-PT": {
-      "language": "Português (Portugal)",
-      "market": "Portugal",
-      "intent": "Describe verified opportunity discovery and organization without claiming guaranteed local vacancy inventory or application services.",
-      "primary": [
-        "aplicação para procurar emprego",
-        "ofertas de emprego"
-      ],
-      "secondary": [
-        "procurar trabalho",
-        "organizar oportunidades"
-      ],
-      "excluded_terms": [
-        "remote jobs",
-        "jobs hiring now",
-        "guaranteed jobs"
-      ],
-      "exclusion_reason": "Remote-work availability and country-specific vacancy coverage are not guaranteed by the app.",
-      "clusters": [
-        {
-          "intent": "app discovery",
-          "primary": [
-            "aplicação para procurar emprego",
-            "ofertas de emprego"
-          ],
-          "secondary": [
-            "procurar trabalho",
-            "organizar oportunidades"
-          ]
-        }
-      ]
+      "exclusion_reason": "Avoid unverified rankings or multiplayer claims."
     },
     "fr-FR": {
       "language": "Français (France)",
       "market": "France",
-      "intent": "Describe verified opportunity discovery and organization without claiming guaranteed local vacancy inventory or application services.",
+      "intent": "Describe the fruit-slicing arcade game in natural French.",
       "primary": [
-        "application de recherche d’emploi",
-        "offres d’emploi"
+        "jeu de découpe de fruits",
+        "jeu arcade fruits",
+        "Fruit Fury Slice"
       ],
       "secondary": [
-        "recherche d’emploi",
-        "organiser les offres"
+        "jeu de fruits Android",
+        "combos de fruits",
+        "jeu hors ligne"
       ],
       "excluded_terms": [
-        "remote jobs",
-        "jobs hiring now",
-        "guaranteed jobs"
+        "meilleur jeu de fruits",
+        "jeu multijoueur"
       ],
-      "exclusion_reason": "Remote-work availability and country-specific vacancy coverage are not guaranteed by the app.",
-      "clusters": [
-        {
-          "intent": "app discovery",
-          "primary": [
-            "application de recherche d’emploi",
-            "offres d’emploi"
-          ],
-          "secondary": [
-            "recherche d’emploi",
-            "organiser les offres"
-          ]
-        }
-      ]
+      "exclusion_reason": "Avoid unverified rankings or multiplayer claims."
+    },
+    "es-ES": {
+      "language": "Español (España)",
+      "market": "Spain",
+      "intent": "Reach players searching for fruit-slicing arcade games.",
+      "primary": [
+        "juego de cortar frutas",
+        "juego arcade de frutas",
+        "Fruit Fury Slice"
+      ],
+      "secondary": [
+        "juego de frutas Android",
+        "combos de frutas",
+        "juego sin conexión"
+      ],
+      "excluded_terms": [
+        "mejor juego de frutas",
+        "juego multijugador"
+      ],
+      "exclusion_reason": "Avoid unverified rankings or multiplayer claims."
+    },
+    "pt-PT": {
+      "language": "Português (Portugal)",
+      "market": "Portugal",
+      "intent": "Reach players interested in fruit-slicing arcade gameplay.",
+      "primary": [
+        "jogo de cortar frutos",
+        "jogo arcade de frutos",
+        "Fruit Fury Slice"
+      ],
+      "secondary": [
+        "jogo de frutos Android",
+        "combos de frutos",
+        "jogo offline"
+      ],
+      "excluded_terms": [
+        "melhor jogo de frutos",
+        "jogo multijogador"
+      ],
+      "exclusion_reason": "Avoid unverified rankings or multiplayer claims."
     },
     "de-DE": {
       "language": "Deutsch (Deutschland)",
       "market": "Germany",
-      "intent": "Describe verified opportunity discovery and organization without claiming guaranteed local vacancy inventory or application services.",
+      "intent": "Describe the fruit-slicing arcade game for German-speaking players.",
       "primary": [
-        "Jobsuche App",
-        "Stellenangebote"
+        "Früchte schneiden Spiel",
+        "Früchte Arcade Spiel",
+        "Fruit Fury Slice"
       ],
       "secondary": [
-        "Jobs entdecken",
-        "Stellenangebote organisieren"
+        "Früchte Spiel Android",
+        "Früchte Kombos",
+        "Offline Arcade Spiel"
       ],
       "excluded_terms": [
-        "remote jobs",
-        "jobs hiring now",
-        "guaranteed jobs"
+        "bestes Früchtspiel",
+        "Mehrspieler Früchte Spiel"
       ],
-      "exclusion_reason": "Remote-work availability and country-specific vacancy coverage are not guaranteed by the app.",
-      "clusters": [
-        {
-          "intent": "app discovery",
-          "primary": [
-            "Jobsuche App",
-            "Stellenangebote"
-          ],
-          "secondary": [
-            "Jobs entdecken",
-            "Stellenangebote organisieren"
-          ]
-        }
-      ]
+      "exclusion_reason": "Avoid unverified rankings or multiplayer claims."
     },
     "it-IT": {
       "language": "Italiano (Italia)",
       "market": "Italy",
-      "intent": "Describe verified opportunity discovery and organization without claiming guaranteed local vacancy inventory or application services.",
+      "intent": "Reach players interested in fruit-slicing arcade games.",
       "primary": [
-        "app per cercare lavoro",
-        "offerte di lavoro"
+        "gioco tagliare frutta",
+        "gioco arcade frutta",
+        "Fruit Fury Slice"
       ],
       "secondary": [
-        "opportunità di lavoro",
-        "organizzare offerte"
+        "gioco frutta Android",
+        "combo frutta",
+        "gioco offline"
       ],
       "excluded_terms": [
-        "remote jobs",
-        "jobs hiring now",
-        "guaranteed jobs"
+        "miglior gioco frutta",
+        "gioco multiplayer"
       ],
-      "exclusion_reason": "Remote-work availability and country-specific vacancy coverage are not guaranteed by the app.",
-      "clusters": [
-        {
-          "intent": "app discovery",
-          "primary": [
-            "app per cercare lavoro",
-            "offerte di lavoro"
-          ],
-          "secondary": [
-            "opportunità di lavoro",
-            "organizzare offerte"
-          ]
-        }
-      ]
+      "exclusion_reason": "Avoid unverified rankings or multiplayer claims."
     }
   },
   "europe_keyword_research": {
-    "status": "research-seeds-only",
-    "note": "European language keyword clusters must be researched and validated per country before publishing. Do not translate North American terms literally or assume one phrase fits every country.",
+    "status": "Initial semantic themes only; search volume and difficulty are not verified.",
+    "note": "Use Search Console and Keyword Planner to validate demand by language and country after the game site is indexed.",
     "first_wave_locales": [
-      "en-GB",
       "fr-FR",
       "de-DE",
-      "es-ES",
       "it-IT",
-      "pt-PT",
-      "nl-NL",
-      "pl-PL"
+      "es-ES",
+      "pt-PT"
     ],
     "examples": {
       "fr-FR": [
-        "application recherche emploi",
-        "offres d'emploi",
-        "recherche d'emploi",
-        "emploi à distance"
+        "jeu de découpe de fruits",
+        "jeu arcade fruits"
       ],
       "de-DE": [
-        "Jobsuche App",
-        "Stellenangebote",
-        "Jobs finden",
-        "Remote Jobs"
-      ],
-      "es-ES": [
-        "aplicación para buscar empleo",
-        "ofertas de empleo",
-        "buscar trabajo",
-        "trabajo remoto"
+        "Früchte schneiden Spiel",
+        "Früchte Arcade Spiel"
       ],
       "it-IT": [
-        "app ricerca lavoro",
-        "offerte di lavoro",
-        "cercare lavoro",
-        "lavoro da remoto"
+        "gioco tagliare frutta",
+        "gioco arcade frutta"
       ],
-      "nl-NL": [
-        "vacatures app",
-        "vacatures zoeken",
-        "werk zoeken",
-        "thuiswerk vacatures"
-      ],
-      "pl-PL": [
-        "aplikacja do szukania pracy",
-        "oferty pracy",
-        "szukanie pracy",
-        "praca zdalna"
-      ],
-      "en-GB": [
-        "job search app",
-        "find a job",
-        "job vacancies",
-        "remote jobs"
+      "es-ES": [
+        "juego de cortar frutas",
+        "juego arcade de frutas"
       ],
       "pt-PT": [
-        "aplicação para procurar emprego",
-        "ofertas de emprego",
-        "procurar trabalho",
-        "organizar oportunidades"
+        "jogo de cortar frutos",
+        "jogo arcade de frutos"
       ]
     }
   },
   "measurement": {
-    "search_volume": "Not supplied or verified in this registry. Confirm with Google Keyword Planner by country and language.",
-    "organic_performance": "Use Google Search Console query and page data after each locale is genuinely published.",
-    "conversion": "Use the existing GA4 google_play_click event, segmented by page_path and locale."
+    "search_volume": "Not supplied or verified. Validate with Google Keyword Planner by country and language.",
+    "organic_performance": "Use Google Search Console query and page data after publication.",
+    "conversion": "Use Google Play outbound click tracking only after a Fruit Fury-specific GA4 measurement ID is configured."
   },
   "published_locales": [
     "en-US",
@@ -898,11 +727,11 @@
     "de-DE",
     "it-IT"
   ],
-  "publishing_policy": "Only locales listed in published_locales and backed by complete locale content are generated, indexed and included in sitemaps. Market status alone never publishes a locale.",
+  "publishing_policy": "Only locales listed in published_locales and backed by game-specific page content are generated, indexed and included in sitemaps.",
   "keyword_quality_policy": {
-    "source_of_truth": "Locale-specific keyword clusters in this file; legacy broad-language seeds are not market-volume research.",
-    "claim_guardrail": "Target only app capabilities confirmed by the current product and store listing. Do not promise live vacancies, hiring-now status, geographic coverage, remote-only or entry-level inventory, application submission, or best-app rankings unless verified.",
-    "volume_policy": "No search-volume, difficulty or traffic estimates are asserted. Validate demand by country and language in Google Keyword Planner and Search Console after sufficient impressions accrue.",
-    "localization_policy": "Use natural regional terminology in titles, descriptions and page copy; do not insert country names into every page or repeat keywords unnaturally."
+    "source_of_truth": "Locale-specific Fruit Fury Slice keyword clusters in this file.",
+    "claim_guardrail": "Describe only verified game mechanics: fruit slicing, combo chains, bomb avoidance, progressive levels, coins and gems, and offline play. Do not claim multiplayer, match-3 gameplay, tournaments, rankings, or features not confirmed by the store listing.",
+    "volume_policy": "No search-volume, difficulty or traffic estimates are asserted. Validate demand by country and language in Keyword Planner and Search Console.",
+    "localization_policy": "Use natural local terms for arcade and fruit-slicing games; avoid keyword stuffing and unsupported regional claims."
   }
 }
