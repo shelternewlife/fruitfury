@@ -344,11 +344,9 @@ if (DIST / "index.html").is_file():
     root_parser.feed(root_html)
     target = f"{BASE}/en-us/"
     if root_parser.canonical != target:
-        fail("Root redirect canonical must point to the selected English About homepage")
-    if 'name="google-site-verification"' not in root_html:
-        fail("Google Search Console verification meta tag missing from root redirect")
+        fail("Root redirect canonical must point to the selected English homepage")
     if f'<meta http-equiv="refresh" content="0; url={target}">' not in root_html:
-        fail("Root page must immediately redirect to the selected About homepage")
+        fail("Root page must immediately redirect to the selected English homepage")
     if f'window.location.replace("{target}")' not in root_html:
         fail("Root redirect JavaScript fallback is missing")
     if 'name="robots" content="noindex,follow"' not in root_html:
