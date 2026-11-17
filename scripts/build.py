@@ -187,7 +187,7 @@ def render_features(lang):
         cards.append(
             f'<article class="item" id="feature-{esc(feature["id"])}">'
             f'<div class="num">{index:02d} / FEATURE</div>'
-            f'<img class="feature-shot" src="{esc(SCREENSHOTS[index - 1]["src"])}" width="526" height="296" '
+            f'<img class="feature-shot" src="{esc(SCREENSHOTS[index - 1]["src"])}" width="176" height="296" '
             f'alt="{esc(SCREENSHOTS[index - 1]["alt"][lang])}" loading="lazy" decoding="async">'
             f'<h2><a href="{detail_url}">{esc(feature["title"][lang])}</a></h2>'
             f'<p>{esc(feature["description"][lang])}</p>'
@@ -209,7 +209,7 @@ def render_gallery(lang):
     cards = []
     for screenshot in SCREENSHOTS:
         cards.append(
-            f'<figure class="shot"><img src="{esc(screenshot["src"])}" width="526" height="296" '
+            f'<figure class="shot"><img src="{esc(screenshot["src"])}" width="176" height="296" '
             f'alt="{esc(screenshot["alt"][lang])}" loading="lazy" decoding="async">'
             f'<figcaption>{esc(screenshot["caption"][lang])}</figcaption></figure>'
         )
@@ -228,7 +228,7 @@ def render_download(lang):
         f'target="_blank" rel="noopener noreferrer" aria-label="{esc(t["cta"])}" '
         f'data-analytics-event="google_play_click" data-cta-location="download_hero">{t["cta"]}</a>'
         f'<p class="muted">{esc(t["download_note"])}</p></div>'
-        f'<div class="preview"><img src="{esc(SCREENSHOTS[0]["src"])}" width="526" height="296" '
+        f'<div class="preview"><img src="{esc(SCREENSHOTS[0]["src"])}" width="176" height="296" '
         f'alt="{esc(SCREENSHOTS[0]["alt"][lang])}" loading="eager" decoding="async"></div></section>'
         f'<section class="section"><h2>{t["download_steps_title"]}</h2><div class="steps">'
         f'<article class="step"><b>01</b>{esc(t["download_step_1"])}</article>'
@@ -256,7 +256,7 @@ def render_content(lang, section):
             f'<h1>{esc(t["home"])}</h1><p class="lead">{esc(t["home_intro"])}</p>'
             f'<a class="btn" href="{esc(APP["google_play_url"])}" '
             f'data-analytics-event="google_play_click" data-cta-location="home_hero">{t["cta"]}</a></div>'
-            f'<div class="preview"><img src="{image}" width="526" height="296" alt="{esc(SCREENSHOTS[0]["alt"][lang])}" loading="eager" fetchpriority="high" decoding="async"></div></section>'
+            f'<div class="preview"><img src="{image}" width="176" height="296" alt="{esc(SCREENSHOTS[0]["alt"][lang])}" loading="eager" fetchpriority="high" decoding="async"></div></section>'
             f'{render_gallery(lang)}'
             f'<section class="section"><h2>{t["features"]}</h2>{render_features(lang)}'
             f'<p><a href="{page_url(lang, "features")}">{t["features"]}</a></p></section>'
